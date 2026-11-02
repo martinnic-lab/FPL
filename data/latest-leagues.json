@@ -1,6 +1,6 @@
 {
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-02T18:42:58.558034+00:00",
+  "collected_at_utc": "2026-11-02T18:45:21.432423+00:00",
   "source": "https://fantasy.premierleague.com/api/entry/1580840/",
   "classic": [
     {
@@ -70,17 +70,17 @@
         },
         {
           "rank": 8,
-          "entry": 51477,
-          "team": "FC Gribben",
-          "manager": "Morten Tveito",
+          "entry": 29991,
+          "team": "Bleeding Doll",
+          "manager": "Jon Thomsen",
           "total": 680,
           "event_total": 63
         },
         {
           "rank": 8,
-          "entry": 29991,
-          "team": "Bleeding Doll",
-          "manager": "Jon Thomsen",
+          "entry": 51477,
+          "team": "FC Gribben",
+          "manager": "Morten Tveito",
           "total": 680,
           "event_total": 63
         },
@@ -110,19 +110,19 @@
         },
         {
           "rank": 13,
-          "entry": 37515,
-          "team": "Average FC",
-          "manager": "Harry Roach",
-          "total": 676,
-          "event_total": 77
-        },
-        {
-          "rank": 13,
           "entry": 1314,
           "team": "NameButAlsoAJoke",
           "manager": "Jim Caudwell",
           "total": 676,
           "event_total": 60
+        },
+        {
+          "rank": 13,
+          "entry": 37515,
+          "team": "Average FC",
+          "manager": "Harry Roach",
+          "total": 676,
+          "event_total": 77
         },
         {
           "rank": 15,
@@ -174,11 +174,11 @@
         },
         {
           "rank": 21,
-          "entry": 8363728,
-          "team": "Hamertime",
-          "manager": "Lovro Hamer",
+          "entry": 1167610,
+          "team": "⚽House of Haaland⚔️",
+          "manager": "⭐⚽ Game of Jahstars",
           "total": 673,
-          "event_total": 74
+          "event_total": 60
         },
         {
           "rank": 21,
@@ -190,11 +190,11 @@
         },
         {
           "rank": 21,
-          "entry": 1167610,
-          "team": "⚽House of Haaland⚔️",
-          "manager": "⭐⚽ Game of Jahstars",
+          "entry": 8363728,
+          "team": "Hamertime",
+          "manager": "Lovro Hamer",
           "total": 673,
-          "event_total": 60
+          "event_total": 74
         },
         {
           "rank": 24,
@@ -214,11 +214,11 @@
         },
         {
           "rank": 26,
-          "entry": 2155198,
-          "team": "Phoenix FC",
-          "manager": "Anene Dalu",
+          "entry": 7551467,
+          "team": "Change Name",
+          "manager": "Sam Redmond",
           "total": 672,
-          "event_total": 62
+          "event_total": 66
         },
         {
           "rank": 26,
@@ -230,11 +230,11 @@
         },
         {
           "rank": 26,
-          "entry": 7551467,
-          "team": "Change Name",
-          "manager": "Sam Redmond",
+          "entry": 2155198,
+          "team": "Phoenix FC",
+          "manager": "Anene Dalu",
           "total": 672,
-          "event_total": 66
+          "event_total": 62
         },
         {
           "rank": 29,
@@ -278,19 +278,19 @@
         },
         {
           "rank": 34,
-          "entry": 1914,
-          "team": "Greg's Team",
-          "manager": "Greg Bradford",
-          "total": 669,
-          "event_total": 77
-        },
-        {
-          "rank": 34,
           "entry": 443451,
           "team": "De Bruyne Identity",
           "manager": "Marc Cavey",
           "total": 669,
           "event_total": 76
+        },
+        {
+          "rank": 34,
+          "entry": 1914,
+          "team": "Greg's Team",
+          "manager": "Greg Bradford",
+          "total": 669,
+          "event_total": 77
         },
         {
           "rank": 36,
@@ -302,6 +302,14 @@
         },
         {
           "rank": 37,
+          "entry": 739017,
+          "team": "JanganLupaTekanWC",
+          "manager": "Armand Limbong",
+          "total": 668,
+          "event_total": 59
+        },
+        {
+          "rank": 37,
           "entry": 123665,
           "team": "HuviOnMiksMitte",
           "manager": "Allan Sieger",
@@ -309,12 +317,12 @@
           "event_total": 54
         },
         {
-          "rank": 37,
-          "entry": 739017,
-          "team": "JanganLupaTekanWC",
-          "manager": "Armand Limbong",
+          "rank": 39,
+          "entry": 1504411,
+          "team": "eivjac",
+          "manager": "Eivind Jacobsen",
           "total": 668,
-          "event_total": 59
+          "event_total": 72
         },
         {
           "rank": 39,
@@ -333,22 +341,6 @@
           "event_total": 80
         },
         {
-          "rank": 39,
-          "entry": 1504411,
-          "team": "eivjac",
-          "manager": "Eivind Jacobsen",
-          "total": 668,
-          "event_total": 72
-        },
-        {
-          "rank": 42,
-          "entry": 107609,
-          "team": "Cowshed Casuals",
-          "manager": "Steve Hoyle",
-          "total": 667,
-          "event_total": 70
-        },
-        {
           "rank": 42,
           "entry": 1851,
           "team": "Nightcrew",
@@ -363,6 +355,14 @@
           "manager": "Bubul Bonito",
           "total": 667,
           "event_total": 68
+        },
+        {
+          "rank": 42,
+          "entry": 107609,
+          "team": "Cowshed Casuals",
+          "manager": "Steve Hoyle",
+          "total": 667,
+          "event_total": 70
         },
         {
           "rank": 45,
@@ -1238,19 +1238,19 @@
         },
         {
           "rank": 154,
-          "entry": 1221293,
-          "team": "The Pros",
-          "manager": "Ahmed Maher",
-          "total": 654,
-          "event_total": 52
-        },
-        {
-          "rank": 154,
           "entry": 26575,
           "team": "TorresMagic™",
           "manager": "The Magician",
           "total": 654,
           "event_total": 53
+        },
+        {
+          "rank": 154,
+          "entry": 1221293,
+          "team": "The Pros",
+          "manager": "Ahmed Maher",
+          "total": 654,
+          "event_total": 52
         },
         {
           "rank": 156,
@@ -1270,14 +1270,6 @@
         },
         {
           "rank": 158,
-          "entry": 283301,
-          "team": "Siena Jack",
-          "manager": "Geraint Jones",
-          "total": 654,
-          "event_total": 74
-        },
-        {
-          "rank": 158,
           "entry": 169723,
           "team": "Stamford Blade",
           "manager": "James Owens",
@@ -1294,19 +1286,27 @@
         },
         {
           "rank": 158,
-          "entry": 110145,
-          "team": "FC Fofinho",
-          "manager": "Kevin Wing",
-          "total": 654,
-          "event_total": 59
-        },
-        {
-          "rank": 158,
           "entry": 2212828,
           "team": "Two Pints o Schlager",
           "manager": "William Garrison",
           "total": 654,
           "event_total": 52
+        },
+        {
+          "rank": 158,
+          "entry": 283301,
+          "team": "Siena Jack",
+          "manager": "Geraint Jones",
+          "total": 654,
+          "event_total": 74
+        },
+        {
+          "rank": 158,
+          "entry": 110145,
+          "team": "FC Fofinho",
+          "manager": "Kevin Wing",
+          "total": 654,
+          "event_total": 59
         },
         {
           "rank": 163,
@@ -1318,19 +1318,19 @@
         },
         {
           "rank": 164,
-          "entry": 643680,
-          "team": "McLovinRelegation",
-          "manager": "Mark Becker",
-          "total": 653,
-          "event_total": 67
-        },
-        {
-          "rank": 164,
           "entry": 5250,
           "team": "Rowdy RoDepayPer",
           "manager": "Callan McDuff",
           "total": 653,
           "event_total": 45
+        },
+        {
+          "rank": 164,
+          "entry": 643680,
+          "team": "McLovinRelegation",
+          "manager": "Mark Becker",
+          "total": 653,
+          "event_total": 67
         },
         {
           "rank": 166,
@@ -1347,22 +1347,6 @@
           "manager": "James McCann",
           "total": 653,
           "event_total": 54
-        },
-        {
-          "rank": 168,
-          "entry": 586341,
-          "team": "João Mama",
-          "manager": "Harry Campbell",
-          "total": 653,
-          "event_total": 51
-        },
-        {
-          "rank": 168,
-          "entry": 8237690,
-          "team": "Vaetown Wanderers",
-          "manager": "James Parker",
-          "total": 653,
-          "event_total": 59
         },
         {
           "rank": 168,
@@ -1389,6 +1373,30 @@
           "event_total": 62
         },
         {
+          "rank": 168,
+          "entry": 8237690,
+          "team": "Vaetown Wanderers",
+          "manager": "James Parker",
+          "total": 653,
+          "event_total": 59
+        },
+        {
+          "rank": 168,
+          "entry": 586341,
+          "team": "João Mama",
+          "manager": "Harry Campbell",
+          "total": 653,
+          "event_total": 51
+        },
+        {
+          "rank": 173,
+          "entry": 4943450,
+          "team": "Cant farke there sir",
+          "manager": "Ollie Geldart",
+          "total": 653,
+          "event_total": 82
+        },
+        {
           "rank": 173,
           "entry": 52160,
           "team": "Virgil Van's Died",
@@ -1403,14 +1411,6 @@
           "manager": "Paul Mitchell",
           "total": 653,
           "event_total": 74
-        },
-        {
-          "rank": 173,
-          "entry": 4943450,
-          "team": "Cant farke there sir",
-          "manager": "Ollie Geldart",
-          "total": 653,
-          "event_total": 82
         },
         {
           "rank": 176,
@@ -1430,11 +1430,11 @@
         },
         {
           "rank": 178,
-          "entry": 1144452,
-          "team": "FPL Cooks",
-          "manager": "Tom Baker",
+          "entry": 7046075,
+          "team": "Spelling Untied",
+          "manager": "Phil Shaw",
           "total": 652,
-          "event_total": 79
+          "event_total": 64
         },
         {
           "rank": 178,
@@ -1446,25 +1446,17 @@
         },
         {
           "rank": 178,
-          "entry": 1584014,
-          "team": "slobodni zidari",
-          "manager": "Elez-Ammar Keserovic",
+          "entry": 1144452,
+          "team": "FPL Cooks",
+          "manager": "Tom Baker",
           "total": 652,
-          "event_total": 60
+          "event_total": 79
         },
         {
           "rank": 178,
-          "entry": 7046075,
-          "team": "Spelling Untied",
-          "manager": "Phil Shaw",
-          "total": 652,
-          "event_total": 64
-        },
-        {
-          "rank": 182,
-          "entry": 213315,
-          "team": "Luthen Town",
-          "manager": "Aj Le",
+          "entry": 1584014,
+          "team": "slobodni zidari",
+          "manager": "Elez-Ammar Keserovic",
           "total": 652,
           "event_total": 60
         },
@@ -1477,12 +1469,12 @@
           "event_total": 59
         },
         {
-          "rank": 184,
-          "entry": 252782,
-          "team": "Kirkby Kings",
-          "manager": "lee wilson",
+          "rank": 182,
+          "entry": 213315,
+          "team": "Luthen Town",
+          "manager": "Aj Le",
           "total": 652,
-          "event_total": 52
+          "event_total": 60
         },
         {
           "rank": 184,
@@ -1494,11 +1486,19 @@
         },
         {
           "rank": 184,
-          "entry": 96189,
-          "team": "Quantum of Tzolis",
-          "manager": "Ben Jones",
+          "entry": 252782,
+          "team": "Kirkby Kings",
+          "manager": "lee wilson",
           "total": 652,
-          "event_total": 63
+          "event_total": 52
+        },
+        {
+          "rank": 184,
+          "entry": 655118,
+          "team": "Brodø/Pint",
+          "manager": "Sena Jnr.",
+          "total": 652,
+          "event_total": 67
         },
         {
           "rank": 184,
@@ -1510,19 +1510,19 @@
         },
         {
           "rank": 184,
+          "entry": 96189,
+          "team": "Quantum of Tzolis",
+          "manager": "Ben Jones",
+          "total": 652,
+          "event_total": 63
+        },
+        {
+          "rank": 184,
           "entry": 1084171,
           "team": "klone11",
           "manager": "Daniel Ayuen",
           "total": 652,
           "event_total": 64
-        },
-        {
-          "rank": 184,
-          "entry": 655118,
-          "team": "Brodø/Pint",
-          "manager": "Sena Jnr.",
-          "total": 652,
-          "event_total": 67
         },
         {
           "rank": 190,
@@ -1590,11 +1590,11 @@
         },
         {
           "rank": 198,
-          "entry": 370855,
-          "team": "kinky afros",
-          "manager": "Keith Foley",
+          "entry": 3347919,
+          "team": "United Refipos",
+          "manager": "Paul Salnikow",
           "total": 651,
-          "event_total": 56
+          "event_total": 71
         },
         {
           "rank": 198,
@@ -1606,11 +1606,11 @@
         },
         {
           "rank": 198,
-          "entry": 32464,
-          "team": "Dynamo Chicken Kiev",
-          "manager": "Mike Commane",
+          "entry": 1728524,
+          "team": "RM11",
+          "manager": "Robbie McNeil",
           "total": 651,
-          "event_total": 70
+          "event_total": 66
         },
         {
           "rank": 198,
@@ -2014,6 +2014,14 @@
         },
         {
           "rank": 248,
+          "entry": 489033,
+          "team": "Barnstoneworth Utd",
+          "manager": "Robert Needham",
+          "total": 648,
+          "event_total": 62
+        },
+        {
+          "rank": 248,
           "entry": 5346426,
           "team": "Richarli XCX",
           "manager": "Henry Bannister",
@@ -2022,27 +2030,27 @@
         },
         {
           "rank": 248,
-          "entry": 1053652,
-          "team": "Sesko Meal Deal",
-          "manager": "James Rudd",
+          "entry": 27767,
+          "team": "Wilsden Wanderers",
+          "manager": "Jon Eden",
           "total": 648,
-          "event_total": 65
+          "event_total": 52
         },
         {
           "rank": 248,
-          "entry": 1107567,
-          "team": "OnlyOneKevinKeegan",
-          "manager": "Seán Martin",
+          "entry": 3460934,
+          "team": "Shinkickers",
+          "manager": "phillip otway",
           "total": 648,
-          "event_total": 69
+          "event_total": 57
         },
         {
-          "rank": 248,
-          "entry": 3592211,
-          "team": "J",
-          "manager": "Joshua A",
+          "rank": 255,
+          "entry": 317111,
+          "team": "Ctrl Alt Defeat",
+          "manager": "Mark Taylor",
           "total": 648,
-          "event_total": 64
+          "event_total": 58
         },
         {
           "rank": 255,
@@ -2059,14 +2067,6 @@
           "manager": "Oliver Browning",
           "total": 648,
           "event_total": 73
-        },
-        {
-          "rank": 255,
-          "entry": 317111,
-          "team": "Ctrl Alt Defeat",
-          "manager": "Mark Taylor",
-          "total": 648,
-          "event_total": 58
         },
         {
           "rank": 258,
@@ -2086,19 +2086,19 @@
         },
         {
           "rank": 260,
-          "entry": 23887,
-          "team": "Chandru's Team",
-          "manager": "Chandru Angiya",
-          "total": 647,
-          "event_total": 56
-        },
-        {
-          "rank": 260,
           "entry": 614726,
           "team": "Red Devils",
           "manager": "Abhigyan Srivastava",
           "total": 647,
           "event_total": 80
+        },
+        {
+          "rank": 260,
+          "entry": 23887,
+          "team": "Chandru's Team",
+          "manager": "Chandru Angiya",
+          "total": 647,
+          "event_total": 56
         },
         {
           "rank": 262,
@@ -2107,14 +2107,6 @@
           "manager": "Andrea D'Souza",
           "total": 647,
           "event_total": 63
-        },
-        {
-          "rank": 262,
-          "entry": 121869,
-          "team": "Take My Breath (A)",
-          "manager": "Jack Hewitt",
-          "total": 647,
-          "event_total": 80
         },
         {
           "rank": 262,
@@ -2133,12 +2125,12 @@
           "event_total": 67
         },
         {
-          "rank": 266,
-          "entry": 4415846,
-          "team": "Norman Dunbar FC",
-          "manager": "Paul Hendrick",
+          "rank": 262,
+          "entry": 121869,
+          "team": "Take My Breath (A)",
+          "manager": "Jack Hewitt",
           "total": 647,
-          "event_total": 55
+          "event_total": 80
         },
         {
           "rank": 266,
@@ -2150,11 +2142,11 @@
         },
         {
           "rank": 266,
-          "entry": 3069069,
-          "team": "FC Golden Cannon",
-          "manager": "Adrien Gabella",
+          "entry": 4415846,
+          "team": "Norman Dunbar FC",
+          "manager": "Paul Hendrick",
           "total": 647,
-          "event_total": 66
+          "event_total": 55
         },
         {
           "rank": 266,
@@ -2163,6 +2155,14 @@
           "manager": "Hazel Hunt",
           "total": 647,
           "event_total": 64
+        },
+        {
+          "rank": 266,
+          "entry": 3069069,
+          "team": "FC Golden Cannon",
+          "manager": "Adrien Gabella",
+          "total": 647,
+          "event_total": 66
         },
         {
           "rank": 266,
@@ -2182,19 +2182,19 @@
         },
         {
           "rank": 272,
-          "entry": 65419,
-          "team": "Haalandaise Sauce",
-          "manager": "Kylie Schembri",
-          "total": 647,
-          "event_total": 60
-        },
-        {
-          "rank": 272,
           "entry": 551017,
           "team": "Haagen Dias",
           "manager": "Nat Guest",
           "total": 647,
           "event_total": 82
+        },
+        {
+          "rank": 272,
+          "entry": 65419,
+          "team": "Haalandaise Sauce",
+          "manager": "Kylie Schembri",
+          "total": 647,
+          "event_total": 60
         },
         {
           "rank": 274,
@@ -2206,19 +2206,19 @@
         },
         {
           "rank": 275,
+          "entry": 23164,
+          "team": "Youri Carrick-ature",
+          "manager": "Cleavon Tan",
+          "total": 646,
+          "event_total": 62
+        },
+        {
+          "rank": 275,
           "entry": 2574016,
           "team": "BAKARY SAKO",
           "manager": "Punn Winichakul",
           "total": 646,
           "event_total": 65
-        },
-        {
-          "rank": 275,
-          "entry": 5848,
-          "team": "Rice 'em & Dice 'em",
-          "manager": "Leslie L",
-          "total": 646,
-          "event_total": 69
         },
         {
           "rank": 275,
@@ -2230,19 +2230,19 @@
         },
         {
           "rank": 275,
-          "entry": 23164,
-          "team": "Youri Carrick-ature",
-          "manager": "Cleavon Tan",
+          "entry": 5848,
+          "team": "Rice 'em & Dice 'em",
+          "manager": "Leslie L",
           "total": 646,
-          "event_total": 62
+          "event_total": 69
         },
         {
           "rank": 279,
-          "entry": 241485,
-          "team": "1906 FC",
-          "manager": "Craig Charnock",
+          "entry": 2559470,
+          "team": "jihad",
+          "manager": "jihad badawi",
           "total": 646,
-          "event_total": 64
+          "event_total": 61
         },
         {
           "rank": 279,
@@ -2251,14 +2251,6 @@
           "manager": "Adebulu Matthew",
           "total": 646,
           "event_total": 74
-        },
-        {
-          "rank": 279,
-          "entry": 3550,
-          "team": "Gyok Paper Scissors",
-          "manager": "Alistair Pritchard",
-          "total": 646,
-          "event_total": 55
         },
         {
           "rank": 279,
@@ -2278,19 +2270,19 @@
         },
         {
           "rank": 279,
-          "entry": 2559470,
-          "team": "jihad",
-          "manager": "jihad badawi",
+          "entry": 3550,
+          "team": "Gyok Paper Scissors",
+          "manager": "Alistair Pritchard",
           "total": 646,
-          "event_total": 61
+          "event_total": 55
         },
         {
-          "rank": 285,
-          "entry": 515639,
-          "team": "Blakey's Blasters",
-          "manager": "Neil Blake",
+          "rank": 279,
+          "entry": 241485,
+          "team": "1906 FC",
+          "manager": "Craig Charnock",
           "total": 646,
-          "event_total": 57
+          "event_total": 64
         },
         {
           "rank": 285,
@@ -2302,35 +2294,11 @@
         },
         {
           "rank": 285,
-          "entry": 231752,
-          "team": "Rice Rice Baby",
-          "manager": "Cian McKenna",
+          "entry": 515639,
+          "team": "Blakey's Blasters",
+          "manager": "Neil Blake",
           "total": 646,
-          "event_total": 72
-        },
-        {
-          "rank": 285,
-          "entry": 3439,
-          "team": "NeverGarnerGiveYouUp",
-          "manager": "kevin Thompson",
-          "total": 646,
-          "event_total": 62
-        },
-        {
-          "rank": 285,
-          "entry": 5036,
-          "team": "Island Hammers.",
-          "manager": "Rich Ivory",
-          "total": 646,
-          "event_total": 65
-        },
-        {
-          "rank": 285,
-          "entry": 604957,
-          "team": "SteFPL",
-          "manager": "Stefan Ivetic",
-          "total": 646,
-          "event_total": 77
+          "event_total": 57
         },
         {
           "rank": 285,
@@ -2342,11 +2310,51 @@
         },
         {
           "rank": 285,
+          "entry": 3439,
+          "team": "NeverGarnerGiveYouUp",
+          "manager": "kevin Thompson",
+          "total": 646,
+          "event_total": 62
+        },
+        {
+          "rank": 285,
+          "entry": 604957,
+          "team": "SteFPL",
+          "manager": "Stefan Ivetic",
+          "total": 646,
+          "event_total": 77
+        },
+        {
+          "rank": 285,
+          "entry": 5036,
+          "team": "Island Hammers.",
+          "manager": "Rich Ivory",
+          "total": 646,
+          "event_total": 65
+        },
+        {
+          "rank": 285,
           "entry": 8806,
           "team": "Zjavelino's Hitmen",
           "manager": "Jo De Win",
           "total": 646,
           "event_total": 59
+        },
+        {
+          "rank": 285,
+          "entry": 231752,
+          "team": "Rice Rice Baby",
+          "manager": "Cian McKenna",
+          "total": 646,
+          "event_total": 72
+        },
+        {
+          "rank": 293,
+          "entry": 100026,
+          "team": "Lucas Layabouts",
+          "manager": "Richard Lucas",
+          "total": 646,
+          "event_total": 77
         },
         {
           "rank": 293,
@@ -2365,28 +2373,12 @@
           "event_total": 55
         },
         {
-          "rank": 293,
-          "entry": 100026,
-          "team": "Lucas Layabouts",
-          "manager": "Richard Lucas",
-          "total": 646,
-          "event_total": 77
-        },
-        {
           "rank": 296,
           "entry": 3721535,
           "team": "Fortunado",
           "manager": "Leandro Yuassa",
           "total": 646,
           "event_total": 66
-        },
-        {
-          "rank": 297,
-          "entry": 2742195,
-          "team": "STALKER",
-          "manager": "Milivoj Petrovic",
-          "total": 645,
-          "event_total": 62
         },
         {
           "rank": 297,
@@ -2397,12 +2389,12 @@
           "event_total": 62
         },
         {
-          "rank": 299,
-          "entry": 7543,
-          "team": "Ha! Guehi",
-          "manager": "Toby McFarlane",
+          "rank": 297,
+          "entry": 2742195,
+          "team": "STALKER",
+          "manager": "Milivoj Petrovic",
           "total": 645,
-          "event_total": 75
+          "event_total": 62
         },
         {
           "rank": 299,
@@ -2414,14 +2406,6 @@
         },
         {
           "rank": 299,
-          "entry": 2866166,
-          "team": "Livra La Vida Loca",
-          "manager": "Eddie Abraham",
-          "total": 645,
-          "event_total": 58
-        },
-        {
-          "rank": 299,
           "entry": 2768251,
           "team": "Chips and Rice",
           "manager": "Karen Waldram",
@@ -2429,20 +2413,36 @@
           "event_total": 75
         },
         {
-          "rank": 303,
-          "entry": 3836949,
-          "team": "CHATGPT FC",
-          "manager": "James Hudson",
+          "rank": 299,
+          "entry": 7543,
+          "team": "Ha! Guehi",
+          "manager": "Toby McFarlane",
+          "total": 645,
+          "event_total": 75
+        },
+        {
+          "rank": 299,
+          "entry": 2866166,
+          "team": "Livra La Vida Loca",
+          "manager": "Eddie Abraham",
           "total": 645,
           "event_total": 58
         },
         {
           "rank": 303,
-          "entry": 739831,
-          "team": "Northern Monkeys",
-          "manager": "andrew carrington",
+          "entry": 182212,
+          "team": "Midnight City",
+          "manager": "Leo Notmessi",
           "total": 645,
-          "event_total": 66
+          "event_total": 44
+        },
+        {
+          "rank": 303,
+          "entry": 2708858,
+          "team": "Fire & Ice",
+          "manager": "Vicky Kalro",
+          "total": 645,
+          "event_total": 48
         },
         {
           "rank": 303,
@@ -2470,115 +2470,27 @@
         },
         {
           "rank": 303,
-          "entry": 2708858,
-          "team": "Fire & Ice",
-          "manager": "Vicky Kalro",
-          "total": 645,
-          "event_total": 48
-        },
-        {
-          "rank": 303,
-          "entry": 182212,
-          "team": "Midnight City",
-          "manager": "Leo Notmessi",
-          "total": 645,
-          "event_total": 44
-        },
-        {
-          "rank": 310,
-          "entry": 123901,
-          "team": "Boston Pancakes",
-          "manager": "Brian Egdell",
-          "total": 645,
-          "event_total": 52
-        },
-        {
-          "rank": 310,
-          "entry": 416998,
-          "team": "Sí señor",
-          "manager": "Oleg Smolerov",
-          "total": 645,
-          "event_total": 80
-        },
-        {
-          "rank": 310,
-          "entry": 4038888,
-          "team": "Joao Pedro - 5iles",
-          "manager": "Joshua Wee",
+          "entry": 3836949,
+          "team": "CHATGPT FC",
+          "manager": "James Hudson",
           "total": 645,
           "event_total": 58
         },
         {
-          "rank": 310,
-          "entry": 6110530,
-          "team": "Levy's Lodgers",
-          "manager": "Barry Mahon",
+          "rank": 303,
+          "entry": 739831,
+          "team": "Northern Monkeys",
+          "manager": "andrew carrington",
           "total": 645,
-          "event_total": 54
+          "event_total": 66
         },
         {
           "rank": 310,
-          "entry": 9871,
-          "team": "***Temple’s ‘Owlers",
-          "manager": "Tim Temple",
-          "total": 645,
-          "event_total": 57
-        },
-        {
-          "rank": 310,
-          "entry": 2074263,
-          "team": "Invincibles",
-          "manager": "Junaid Sukhera",
-          "total": 645,
-          "event_total": 51
-        },
-        {
-          "rank": 310,
-          "entry": 105221,
-          "team": "Saroof's Team",
-          "manager": "Saroof Aungraheeta",
-          "total": 645,
-          "event_total": 75
-        },
-        {
-          "rank": 310,
-          "entry": 565687,
-          "team": "GVT",
-          "manager": "Giang van Tran",
-          "total": 645,
-          "event_total": 67
-        },
-        {
-          "rank": 310,
-          "entry": 33409,
-          "team": "Duncans Horses",
-          "manager": "Andrew Hare",
-          "total": 645,
-          "event_total": 45
-        },
-        {
-          "rank": 310,
-          "entry": 148233,
-          "team": "Slough House FC",
-          "manager": "Chris English",
+          "entry": 16596,
+          "team": "Lublin Hotspur",
+          "manager": "Sim Pix",
           "total": 645,
           "event_total": 64
-        },
-        {
-          "rank": 310,
-          "entry": 338579,
-          "team": "iyed's Team",
-          "manager": "iyed Amara",
-          "total": 645,
-          "event_total": 62
-        },
-        {
-          "rank": 310,
-          "entry": 8213,
-          "team": "Red Devils ⚡️",
-          "manager": "Nikhil Narang",
-          "total": 645,
-          "event_total": 68
         },
         {
           "rank": 310,
@@ -2590,11 +2502,99 @@
         },
         {
           "rank": 310,
-          "entry": 16596,
-          "team": "Lublin Hotspur",
-          "manager": "Sim Pix",
+          "entry": 123901,
+          "team": "Boston Pancakes",
+          "manager": "Brian Egdell",
+          "total": 645,
+          "event_total": 52
+        },
+        {
+          "rank": 310,
+          "entry": 105221,
+          "team": "Saroof's Team",
+          "manager": "Saroof Aungraheeta",
+          "total": 645,
+          "event_total": 75
+        },
+        {
+          "rank": 310,
+          "entry": 4038888,
+          "team": "Joao Pedro - 5iles",
+          "manager": "Joshua Wee",
+          "total": 645,
+          "event_total": 58
+        },
+        {
+          "rank": 310,
+          "entry": 33409,
+          "team": "Duncans Horses",
+          "manager": "Andrew Hare",
+          "total": 645,
+          "event_total": 45
+        },
+        {
+          "rank": 310,
+          "entry": 6110530,
+          "team": "Levy's Lodgers",
+          "manager": "Barry Mahon",
+          "total": 645,
+          "event_total": 54
+        },
+        {
+          "rank": 310,
+          "entry": 8213,
+          "team": "Red Devils ⚡️",
+          "manager": "Nikhil Narang",
+          "total": 645,
+          "event_total": 68
+        },
+        {
+          "rank": 310,
+          "entry": 338579,
+          "team": "iyed's Team",
+          "manager": "iyed Amara",
+          "total": 645,
+          "event_total": 62
+        },
+        {
+          "rank": 310,
+          "entry": 148233,
+          "team": "Slough House FC",
+          "manager": "Chris English",
           "total": 645,
           "event_total": 64
+        },
+        {
+          "rank": 310,
+          "entry": 2074263,
+          "team": "Invincibles",
+          "manager": "Junaid Sukhera",
+          "total": 645,
+          "event_total": 51
+        },
+        {
+          "rank": 310,
+          "entry": 9871,
+          "team": "***Temple’s ‘Owlers",
+          "manager": "Tim Temple",
+          "total": 645,
+          "event_total": 57
+        },
+        {
+          "rank": 310,
+          "entry": 565687,
+          "team": "GVT",
+          "manager": "Giang van Tran",
+          "total": 645,
+          "event_total": 67
+        },
+        {
+          "rank": 310,
+          "entry": 416998,
+          "team": "Sí señor",
+          "manager": "Oleg Smolerov",
+          "total": 645,
+          "event_total": 80
         },
         {
           "rank": 324,
@@ -2614,19 +2614,19 @@
         },
         {
           "rank": 326,
-          "entry": 1741523,
-          "team": "Redrebels99",
-          "manager": "Abdul Nsubuga",
+          "entry": 1443157,
+          "team": "Crockey Hillbillies",
+          "manager": "Jon Kenny",
           "total": 644,
           "event_total": 67
         },
         {
           "rank": 326,
-          "entry": 5735996,
-          "team": "TeamMir89",
-          "manager": "Radostin Karabelov",
+          "entry": 1741523,
+          "team": "Redrebels99",
+          "manager": "Abdul Nsubuga",
           "total": 644,
-          "event_total": 55
+          "event_total": 67
         },
         {
           "rank": 326,
@@ -2638,11 +2638,19 @@
         },
         {
           "rank": 326,
-          "entry": 1443157,
-          "team": "Crockey Hillbillies",
-          "manager": "Jon Kenny",
+          "entry": 5735996,
+          "team": "TeamMir89",
+          "manager": "Radostin Karabelov",
           "total": 644,
-          "event_total": 67
+          "event_total": 55
+        },
+        {
+          "rank": 330,
+          "entry": 4767247,
+          "team": "Devilistan",
+          "manager": "Sreerag Sasidharan",
+          "total": 644,
+          "event_total": 54
         },
         {
           "rank": 330,
@@ -2661,60 +2669,12 @@
           "event_total": 63
         },
         {
-          "rank": 330,
-          "entry": 4767247,
-          "team": "Devilistan",
-          "manager": "Sreerag Sasidharan",
-          "total": 644,
-          "event_total": 54
-        },
-        {
-          "rank": 333,
-          "entry": 212,
-          "team": "DiomandeInTheRoefs",
-          "manager": "Ali S",
-          "total": 644,
-          "event_total": 67
-        },
-        {
           "rank": 333,
           "entry": 39690,
           "team": "Super Merinos",
           "manager": "Jørgen Laursen",
           "total": 644,
           "event_total": 61
-        },
-        {
-          "rank": 333,
-          "entry": 2513603,
-          "team": "Struberto Struzerbi",
-          "manager": "Struan Hepburn",
-          "total": 644,
-          "event_total": 66
-        },
-        {
-          "rank": 333,
-          "entry": 2115,
-          "team": "Turtle and Bear Utd",
-          "manager": "Turtle Bear",
-          "total": 644,
-          "event_total": 64
-        },
-        {
-          "rank": 333,
-          "entry": 3184903,
-          "team": "BK Bocken",
-          "manager": "Tobias Nyberg",
-          "total": 644,
-          "event_total": 69
-        },
-        {
-          "rank": 333,
-          "entry": 2739291,
-          "team": "Game of Cones",
-          "manager": "Michael Nandwa",
-          "total": 644,
-          "event_total": 56
         },
         {
           "rank": 333,
@@ -2726,19 +2686,11 @@
         },
         {
           "rank": 333,
-          "entry": 474901,
-          "team": "my skin is Dedic-y",
-          "manager": "ben gregg",
+          "entry": 2115,
+          "team": "Turtle and Bear Utd",
+          "manager": "Turtle Bear",
           "total": 644,
-          "event_total": 45
-        },
-        {
-          "rank": 333,
-          "entry": 27238,
-          "team": "Mane For Nothing",
-          "manager": "Richard Brook",
-          "total": 644,
-          "event_total": 78
+          "event_total": 64
         },
         {
           "rank": 333,
@@ -2750,11 +2702,59 @@
         },
         {
           "rank": 333,
+          "entry": 2739291,
+          "team": "Game of Cones",
+          "manager": "Michael Nandwa",
+          "total": 644,
+          "event_total": 56
+        },
+        {
+          "rank": 333,
+          "entry": 212,
+          "team": "DiomandeInTheRoefs",
+          "manager": "Ali S",
+          "total": 644,
+          "event_total": 67
+        },
+        {
+          "rank": 333,
           "entry": 5350,
           "team": "Winnerpool⚽️",
           "manager": "George Poxialian",
           "total": 644,
           "event_total": 61
+        },
+        {
+          "rank": 333,
+          "entry": 27238,
+          "team": "Mane For Nothing",
+          "manager": "Richard Brook",
+          "total": 644,
+          "event_total": 78
+        },
+        {
+          "rank": 333,
+          "entry": 474901,
+          "team": "my skin is Dedic-y",
+          "manager": "ben gregg",
+          "total": 644,
+          "event_total": 45
+        },
+        {
+          "rank": 333,
+          "entry": 3184903,
+          "team": "BK Bocken",
+          "manager": "Tobias Nyberg",
+          "total": 644,
+          "event_total": 69
+        },
+        {
+          "rank": 333,
+          "entry": 2513603,
+          "team": "Struberto Struzerbi",
+          "manager": "Struan Hepburn",
+          "total": 644,
+          "event_total": 66
         },
         {
           "rank": 344,
@@ -2771,6 +2771,22 @@
           "manager": "Steve Ainsworth",
           "total": 644,
           "event_total": 77
+        },
+        {
+          "rank": 346,
+          "entry": 375751,
+          "team": "TOTY",
+          "manager": "Stanislav Hrica",
+          "total": 643,
+          "event_total": 59
+        },
+        {
+          "rank": 346,
+          "entry": 978438,
+          "team": "Wirtz Case Scenario",
+          "manager": "Sanchit Madan",
+          "total": 643,
+          "event_total": 47
         },
         {
           "rank": 346,
@@ -2795,22 +2811,6 @@
           "manager": "Alexander Rosen",
           "total": 643,
           "event_total": 67
-        },
-        {
-          "rank": 346,
-          "entry": 978438,
-          "team": "Wirtz Case Scenario",
-          "manager": "Sanchit Madan",
-          "total": 643,
-          "event_total": 47
-        },
-        {
-          "rank": 346,
-          "entry": 375751,
-          "team": "TOTY",
-          "manager": "Stanislav Hrica",
-          "total": 643,
-          "event_total": 59
         },
         {
           "rank": 351,
@@ -3214,6 +3214,14 @@
         },
         {
           "rank": 401,
+          "entry": 2540106,
+          "team": "Howay the Lads",
+          "manager": "Katha Chamadol",
+          "total": 641,
+          "event_total": 51
+        },
+        {
+          "rank": 401,
           "entry": 18432,
           "team": "Marshallona",
           "manager": "Tim Marshall",
@@ -3229,36 +3237,20 @@
           "event_total": 56
         },
         {
-          "rank": 401,
-          "entry": 2540106,
-          "team": "Howay the Lads",
-          "manager": "Katha Chamadol",
+          "rank": 404,
+          "entry": 80308,
+          "team": "Fiachra's Team",
+          "manager": "Fiachra Scallan",
           "total": 641,
-          "event_total": 51
+          "event_total": 59
         },
         {
           "rank": 404,
-          "entry": 4395485,
-          "team": "Nun EZ Win",
-          "manager": "Joshua Rogers",
+          "entry": 530312,
+          "team": "Ingscanonlygetbetter",
+          "manager": "Mark Hammond",
           "total": 641,
-          "event_total": 52
-        },
-        {
-          "rank": 404,
-          "entry": 29454,
-          "team": "NIL SATIS NISI OPTIM",
-          "manager": "Mohamed Abdou",
-          "total": 641,
-          "event_total": 61
-        },
-        {
-          "rank": 404,
-          "entry": 1805540,
-          "team": "Will Glasner Make It",
-          "manager": "Lee Harding",
-          "total": 641,
-          "event_total": 67
+          "event_total": 66
         },
         {
           "rank": 404,
@@ -3278,19 +3270,11 @@
         },
         {
           "rank": 404,
-          "entry": 530312,
-          "team": "Ingscanonlygetbetter",
-          "manager": "Mark Hammond",
+          "entry": 4395485,
+          "team": "Nun EZ Win",
+          "manager": "Joshua Rogers",
           "total": 641,
-          "event_total": 66
-        },
-        {
-          "rank": 404,
-          "entry": 80308,
-          "team": "Fiachra's Team",
-          "manager": "Fiachra Scallan",
-          "total": 641,
-          "event_total": 59
+          "event_total": 52
         },
         {
           "rank": 404,
@@ -3302,11 +3286,11 @@
         },
         {
           "rank": 404,
-          "entry": 117953,
-          "team": "Rice to the occasion",
-          "manager": "Summer Upton",
+          "entry": 1805540,
+          "team": "Will Glasner Make It",
+          "manager": "Lee Harding",
           "total": 641,
-          "event_total": 62
+          "event_total": 67
         },
         {
           "rank": 404,
@@ -3317,20 +3301,20 @@
           "event_total": 78
         },
         {
-          "rank": 414,
-          "entry": 2196374,
-          "team": "Juventus",
-          "manager": "Franco Caruso",
+          "rank": 404,
+          "entry": 29454,
+          "team": "NIL SATIS NISI OPTIM",
+          "manager": "Mohamed Abdou",
           "total": 641,
-          "event_total": 71
+          "event_total": 61
         },
         {
-          "rank": 414,
-          "entry": 20877,
-          "team": "The Plunderers",
-          "manager": "Andrew Ma",
+          "rank": 404,
+          "entry": 117953,
+          "team": "Rice to the occasion",
+          "manager": "Summer Upton",
           "total": 641,
-          "event_total": 57
+          "event_total": 62
         },
         {
           "rank": 414,
@@ -3342,11 +3326,11 @@
         },
         {
           "rank": 414,
-          "entry": 7553,
-          "team": "Toasted Ekitikakes",
-          "manager": "Steven Jones",
+          "entry": 2196374,
+          "team": "Juventus",
+          "manager": "Franco Caruso",
           "total": 641,
-          "event_total": 64
+          "event_total": 71
         },
         {
           "rank": 414,
@@ -3355,6 +3339,22 @@
           "manager": "André Heldal",
           "total": 641,
           "event_total": 46
+        },
+        {
+          "rank": 414,
+          "entry": 7553,
+          "team": "Toasted Ekitikakes",
+          "manager": "Steven Jones",
+          "total": 641,
+          "event_total": 64
+        },
+        {
+          "rank": 414,
+          "entry": 20877,
+          "team": "The Plunderers",
+          "manager": "Andrew Ma",
+          "total": 641,
+          "event_total": 57
         },
         {
           "rank": 419,
@@ -3374,14 +3374,6 @@
         },
         {
           "rank": 421,
-          "entry": 1386772,
-          "team": "Sam Town FC",
-          "manager": "Ian Pembroke",
-          "total": 640,
-          "event_total": 61
-        },
-        {
-          "rank": 421,
           "entry": 264395,
           "team": "The Egg Custards",
           "manager": "James Middlehurst",
@@ -3389,20 +3381,44 @@
           "event_total": 61
         },
         {
-          "rank": 423,
-          "entry": 343294,
-          "team": "Queen's Park Raisins",
-          "manager": "Kieran Whitehouse",
+          "rank": 421,
+          "entry": 1386772,
+          "team": "Sam Town FC",
+          "manager": "Ian Pembroke",
           "total": 640,
-          "event_total": 72
+          "event_total": 61
         },
         {
           "rank": 423,
-          "entry": 1205042,
-          "team": "Wahala don finish",
-          "manager": "Israel Okolie",
+          "entry": 116484,
+          "team": "ABCDE FC",
+          "manager": "Hammad Hamid",
+          "total": 640,
+          "event_total": 69
+        },
+        {
+          "rank": 423,
+          "entry": 1194022,
+          "team": "LilleNiellers",
+          "manager": "Steffen Uldahl Nielsen",
           "total": 640,
           "event_total": 58
+        },
+        {
+          "rank": 423,
+          "entry": 1416405,
+          "team": "PSSI",
+          "manager": "Jovian Varian",
+          "total": 640,
+          "event_total": 77
+        },
+        {
+          "rank": 423,
+          "entry": 3088,
+          "team": "Power Rangers FC",
+          "manager": "Ian Emamalie",
+          "total": 640,
+          "event_total": 56
         },
         {
           "rank": 423,
@@ -3422,19 +3438,19 @@
         },
         {
           "rank": 423,
-          "entry": 3088,
-          "team": "Power Rangers FC",
-          "manager": "Ian Emamalie",
+          "entry": 343294,
+          "team": "Queen's Park Raisins",
+          "manager": "Kieran Whitehouse",
           "total": 640,
-          "event_total": 56
+          "event_total": 72
         },
         {
           "rank": 423,
-          "entry": 116484,
-          "team": "ABCDE FC",
-          "manager": "Hammad Hamid",
+          "entry": 1205042,
+          "team": "Wahala don finish",
+          "manager": "Israel Okolie",
           "total": 640,
-          "event_total": 69
+          "event_total": 58
         },
         {
           "rank": 423,
@@ -3446,11 +3462,11 @@
         },
         {
           "rank": 423,
-          "entry": 1416405,
-          "team": "PSSI",
-          "manager": "Jovian Varian",
+          "entry": 561423,
+          "team": "Fridhem FF",
+          "manager": "Niklas Herrmann",
           "total": 640,
-          "event_total": 77
+          "event_total": 73
         },
         {
           "rank": 423,
@@ -3459,54 +3475,6 @@
           "manager": "Jim Whittock",
           "total": 640,
           "event_total": 68
-        },
-        {
-          "rank": 423,
-          "entry": 1194022,
-          "team": "LilleNiellers",
-          "manager": "Steffen Uldahl Nielsen",
-          "total": 640,
-          "event_total": 58
-        },
-        {
-          "rank": 423,
-          "entry": 561423,
-          "team": "Fridhem FF",
-          "manager": "Niklas Herrmann",
-          "total": 640,
-          "event_total": 73
-        },
-        {
-          "rank": 434,
-          "entry": 6594,
-          "team": "20 Titles!",
-          "manager": "Wayne Dean",
-          "total": 640,
-          "event_total": 57
-        },
-        {
-          "rank": 434,
-          "entry": 1159,
-          "team": "animus",
-          "manager": "Vahid Karaahmetovic",
-          "total": 640,
-          "event_total": 77
-        },
-        {
-          "rank": 434,
-          "entry": 839100,
-          "team": "Hotel? Thiago",
-          "manager": "Kenneth Lee",
-          "total": 640,
-          "event_total": 57
-        },
-        {
-          "rank": 434,
-          "entry": 6241248,
-          "team": "No1AppleJuiceFan",
-          "manager": "David Gilmore",
-          "total": 640,
-          "event_total": 61
         },
         {
           "rank": 434,
@@ -3518,11 +3486,11 @@
         },
         {
           "rank": 434,
-          "entry": 17921,
-          "team": "Isaked Before Break",
-          "manager": "Oleksandr Parubets",
+          "entry": 6241248,
+          "team": "No1AppleJuiceFan",
+          "manager": "David Gilmore",
           "total": 640,
-          "event_total": 71
+          "event_total": 61
         },
         {
           "rank": 434,
@@ -3534,6 +3502,14 @@
         },
         {
           "rank": 434,
+          "entry": 6594,
+          "team": "20 Titles!",
+          "manager": "Wayne Dean",
+          "total": 640,
+          "event_total": 57
+        },
+        {
+          "rank": 434,
           "entry": 13036,
           "team": "Badgers9",
           "manager": "Tom Stephenson",
@@ -3542,11 +3518,35 @@
         },
         {
           "rank": 434,
+          "entry": 839100,
+          "team": "Hotel? Thiago",
+          "manager": "Kenneth Lee",
+          "total": 640,
+          "event_total": 57
+        },
+        {
+          "rank": 434,
           "entry": 3971431,
           "team": "Mr Brunt-side",
           "manager": "Ryan Shakeshaft",
           "total": 640,
           "event_total": 56
+        },
+        {
+          "rank": 434,
+          "entry": 1159,
+          "team": "animus",
+          "manager": "Vahid Karaahmetovic",
+          "total": 640,
+          "event_total": 77
+        },
+        {
+          "rank": 434,
+          "entry": 17921,
+          "team": "Isaked Before Break",
+          "manager": "Oleksandr Parubets",
+          "total": 640,
+          "event_total": 71
         },
         {
           "rank": 443,
@@ -3606,6 +3606,14 @@
         },
         {
           "rank": 450,
+          "entry": 5940022,
+          "team": "21iscoming",
+          "manager": "Gopal Krishna S",
+          "total": 639,
+          "event_total": 74
+        },
+        {
+          "rank": 450,
           "entry": 108835,
           "team": "Bamboozle FC",
           "manager": "David Robertson",
@@ -3629,28 +3637,28 @@
           "event_total": 49
         },
         {
-          "rank": 450,
-          "entry": 5940022,
-          "team": "21iscoming",
-          "manager": "Gopal Krishna S",
+          "rank": 454,
+          "entry": 1804,
+          "team": "Si Elang Hitam",
+          "manager": "A. Benhard",
           "total": 639,
-          "event_total": 74
+          "event_total": 59
         },
         {
           "rank": 454,
-          "entry": 362614,
-          "team": "Hilarious Name",
-          "manager": "Craig Norrey",
+          "entry": 1026951,
+          "team": "Virgin Breaker",
+          "manager": "Network De General",
           "total": 639,
-          "event_total": 60
+          "event_total": 57
         },
         {
           "rank": 454,
-          "entry": 7719595,
-          "team": "VoteforPedro",
-          "manager": "Jesse Golik Meineke",
+          "entry": 1773947,
+          "team": "Peterparker",
+          "manager": "Adryan Fikardillah",
           "total": 639,
-          "event_total": 62
+          "event_total": 70
         },
         {
           "rank": 454,
@@ -3670,14 +3678,6 @@
         },
         {
           "rank": 454,
-          "entry": 1026951,
-          "team": "Virgin Breaker",
-          "manager": "Network De General",
-          "total": 639,
-          "event_total": 57
-        },
-        {
-          "rank": 454,
           "entry": 5906208,
           "team": "Big Bonito Fish",
           "manager": "Mark Godfrey",
@@ -3686,83 +3686,19 @@
         },
         {
           "rank": 454,
-          "entry": 1804,
-          "team": "Si Elang Hitam",
-          "manager": "A. Benhard",
+          "entry": 7719595,
+          "team": "VoteforPedro",
+          "manager": "Jesse Golik Meineke",
           "total": 639,
-          "event_total": 59
+          "event_total": 62
         },
         {
           "rank": 454,
-          "entry": 1773947,
-          "team": "Peterparker",
-          "manager": "Adryan Fikardillah",
+          "entry": 362614,
+          "team": "Hilarious Name",
+          "manager": "Craig Norrey",
           "total": 639,
-          "event_total": 70
-        },
-        {
-          "rank": 462,
-          "entry": 5087,
-          "team": "YNWA",
-          "manager": "Joshua Tan",
-          "total": 639,
-          "event_total": 59
-        },
-        {
-          "rank": 462,
-          "entry": 336908,
-          "team": "Jack Attack",
-          "manager": "Jacques le Roux",
-          "total": 639,
-          "event_total": 64
-        },
-        {
-          "rank": 462,
-          "entry": 17932,
-          "team": "Wirtz Case Scenario",
-          "manager": "Steven McGinnis",
-          "total": 639,
-          "event_total": 65
-        },
-        {
-          "rank": 462,
-          "entry": 3740547,
-          "team": "coocoocachoo3",
-          "manager": "Liam McDonnell",
-          "total": 639,
-          "event_total": 56
-        },
-        {
-          "rank": 462,
-          "entry": 948219,
-          "team": "SCULK SIEMPRE GANA",
-          "manager": "Sean Culkin",
-          "total": 639,
-          "event_total": 58
-        },
-        {
-          "rank": 462,
-          "entry": 1315417,
-          "team": "Major League Saka",
-          "manager": "Viktor Mirchevski",
-          "total": 639,
-          "event_total": 72
-        },
-        {
-          "rank": 462,
-          "entry": 69717,
-          "team": "Jesus, Son of Mané",
-          "manager": "Tom Ojakovoh",
-          "total": 639,
-          "event_total": 84
-        },
-        {
-          "rank": 462,
-          "entry": 2113925,
-          "team": "Orcas Island FC",
-          "manager": "Matthew Wagner",
-          "total": 639,
-          "event_total": 73
+          "event_total": 60
         },
         {
           "rank": 462,
@@ -3782,11 +3718,27 @@
         },
         {
           "rank": 462,
-          "entry": 3833484,
-          "team": "Philogenesnotmylover",
-          "manager": "Henry Elks",
+          "entry": 948219,
+          "team": "SCULK SIEMPRE GANA",
+          "manager": "Sean Culkin",
           "total": 639,
-          "event_total": 59
+          "event_total": 58
+        },
+        {
+          "rank": 462,
+          "entry": 2113925,
+          "team": "Orcas Island FC",
+          "manager": "Matthew Wagner",
+          "total": 639,
+          "event_total": 73
+        },
+        {
+          "rank": 462,
+          "entry": 69717,
+          "team": "Jesus, Son of Mané",
+          "manager": "Tom Ojakovoh",
+          "total": 639,
+          "event_total": 84
         },
         {
           "rank": 462,
@@ -3795,6 +3747,54 @@
           "manager": "Jamie McLeary",
           "total": 639,
           "event_total": 54
+        },
+        {
+          "rank": 462,
+          "entry": 1315417,
+          "team": "Major League Saka",
+          "manager": "Viktor Mirchevski",
+          "total": 639,
+          "event_total": 72
+        },
+        {
+          "rank": 462,
+          "entry": 17932,
+          "team": "Wirtz Case Scenario",
+          "manager": "Steven McGinnis",
+          "total": 639,
+          "event_total": 65
+        },
+        {
+          "rank": 462,
+          "entry": 3833484,
+          "team": "Philogenesnotmylover",
+          "manager": "Henry Elks",
+          "total": 639,
+          "event_total": 59
+        },
+        {
+          "rank": 462,
+          "entry": 5087,
+          "team": "YNWA",
+          "manager": "Joshua Tan",
+          "total": 639,
+          "event_total": 59
+        },
+        {
+          "rank": 462,
+          "entry": 3740547,
+          "team": "coocoocachoo3",
+          "manager": "Liam McDonnell",
+          "total": 639,
+          "event_total": 56
+        },
+        {
+          "rank": 462,
+          "entry": 336908,
+          "team": "Jack Attack",
+          "manager": "Jacques le Roux",
+          "total": 639,
+          "event_total": 64
         },
         {
           "rank": 462,
@@ -3838,14 +3838,6 @@
         },
         {
           "rank": 479,
-          "entry": 593841,
-          "team": "Wirtz Case Scenario",
-          "manager": "Marc Escobosa",
-          "total": 639,
-          "event_total": 69
-        },
-        {
-          "rank": 479,
           "entry": 146893,
           "team": "DeadStarComing",
           "manager": "Andrew Ballantyne",
@@ -3859,6 +3851,14 @@
           "manager": "Eirik Hatlem",
           "total": 639,
           "event_total": 67
+        },
+        {
+          "rank": 479,
+          "entry": 593841,
+          "team": "Wirtz Case Scenario",
+          "manager": "Marc Escobosa",
+          "total": 639,
+          "event_total": 69
         },
         {
           "rank": 482,
@@ -3878,19 +3878,19 @@
         },
         {
           "rank": 484,
-          "entry": 127765,
-          "team": "Kvaratskellya",
-          "manager": "Aaron Skelly",
-          "total": 638,
-          "event_total": 60
-        },
-        {
-          "rank": 484,
           "entry": 802317,
           "team": "Samverpool",
           "manager": "Sam Ryding",
           "total": 638,
           "event_total": 59
+        },
+        {
+          "rank": 484,
+          "entry": 127765,
+          "team": "Kvaratskellya",
+          "manager": "Aaron Skelly",
+          "total": 638,
+          "event_total": 60
         },
         {
           "rank": 484,
@@ -3910,43 +3910,11 @@
         },
         {
           "rank": 488,
-          "entry": 559060,
-          "team": "Bananchester United",
-          "manager": "Harald Faeste",
-          "total": 638,
-          "event_total": 74
-        },
-        {
-          "rank": 488,
-          "entry": 793141,
-          "team": "Charlie xGx",
-          "manager": "Kameron Mackellar",
-          "total": 638,
-          "event_total": 59
-        },
-        {
-          "rank": 488,
           "entry": 90690,
           "team": "Super Spurs",
           "manager": "James Stanton",
           "total": 638,
           "event_total": 69
-        },
-        {
-          "rank": 488,
-          "entry": 455793,
-          "team": "keane as Mustard",
-          "manager": "Aidan Dornan",
-          "total": 638,
-          "event_total": 69
-        },
-        {
-          "rank": 488,
-          "entry": 212866,
-          "team": "Sleep @ 10:30",
-          "manager": "Jack Wu",
-          "total": 638,
-          "event_total": 48
         },
         {
           "rank": 488,
@@ -3958,19 +3926,11 @@
         },
         {
           "rank": 488,
-          "entry": 1329332,
-          "team": "Isak Newton",
-          "manager": "John Skoglund",
+          "entry": 793141,
+          "team": "Charlie xGx",
+          "manager": "Kameron Mackellar",
           "total": 638,
-          "event_total": 80
-        },
-        {
-          "rank": 488,
-          "entry": 34900,
-          "team": "abc",
-          "manager": "Matthew CY Chan",
-          "total": 638,
-          "event_total": 54
+          "event_total": 59
         },
         {
           "rank": 488,
@@ -3982,11 +3942,19 @@
         },
         {
           "rank": 488,
-          "entry": 3530273,
-          "team": "Andoni Areola",
-          "manager": "ellis cuzak",
+          "entry": 212866,
+          "team": "Sleep @ 10:30",
+          "manager": "Jack Wu",
           "total": 638,
-          "event_total": 69
+          "event_total": 48
+        },
+        {
+          "rank": 488,
+          "entry": 559060,
+          "team": "Bananchester United",
+          "manager": "Harald Faeste",
+          "total": 638,
+          "event_total": 74
         },
         {
           "rank": 488,
@@ -3997,84 +3965,36 @@
           "event_total": 58
         },
         {
-          "rank": 499,
-          "entry": 747219,
-          "team": "Tacos FC",
-          "manager": "Alan Cortez",
+          "rank": 488,
+          "entry": 1329332,
+          "team": "Isak Newton",
+          "manager": "John Skoglund",
           "total": 638,
-          "event_total": 61
+          "event_total": 80
         },
         {
-          "rank": 499,
-          "entry": 155821,
-          "team": "Blue Frost",
-          "manager": "Nadim H",
+          "rank": 488,
+          "entry": 3530273,
+          "team": "Andoni Areola",
+          "manager": "ellis cuzak",
           "total": 638,
-          "event_total": 68
+          "event_total": 69
         },
         {
-          "rank": 499,
-          "entry": 1515451,
-          "team": "50 Spence",
-          "manager": "Ben Trivette",
+          "rank": 488,
+          "entry": 34900,
+          "team": "abc",
+          "manager": "Matthew CY Chan",
           "total": 638,
-          "event_total": 59
+          "event_total": 54
         },
         {
-          "rank": 499,
-          "entry": 239283,
-          "team": "Samstag",
-          "manager": "Samuel Jewell",
+          "rank": 488,
+          "entry": 455793,
+          "team": "keane as Mustard",
+          "manager": "Aidan Dornan",
           "total": 638,
-          "event_total": 42
-        },
-        {
-          "rank": 499,
-          "entry": 7736243,
-          "team": "A B M's Team",
-          "manager": "A B M NADIM",
-          "total": 638,
-          "event_total": 59
-        },
-        {
-          "rank": 499,
-          "entry": 3133467,
-          "team": "Back to Square One",
-          "manager": "Marc DeCristofaro",
-          "total": 638,
-          "event_total": 50
-        },
-        {
-          "rank": 499,
-          "entry": 3691703,
-          "team": "Cityzens",
-          "manager": "yassir ayouch",
-          "total": 638,
-          "event_total": 56
-        },
-        {
-          "rank": 499,
-          "entry": 876,
-          "team": "ALXHMISTHS",
-          "manager": "Sotiris Giadinis",
-          "total": 638,
-          "event_total": 67
-        },
-        {
-          "rank": 499,
-          "entry": 10306,
-          "team": "Pełe",
-          "manager": "Przemek Pelka",
-          "total": 638,
-          "event_total": 60
-        },
-        {
-          "rank": 499,
-          "entry": 176628,
-          "team": "zo7le2a",
-          "manager": "abdo nabil",
-          "total": 638,
-          "event_total": 65
+          "event_total": 69
         },
         {
           "rank": 499,
@@ -4086,11 +4006,67 @@
         },
         {
           "rank": 499,
-          "entry": 37443,
-          "team": "Linderpool",
-          "manager": "Michael Linder",
+          "entry": 3691703,
+          "team": "Cityzens",
+          "manager": "yassir ayouch",
           "total": 638,
-          "event_total": 58
+          "event_total": 56
+        },
+        {
+          "rank": 499,
+          "entry": 1515451,
+          "team": "50 Spence",
+          "manager": "Ben Trivette",
+          "total": 638,
+          "event_total": 59
+        },
+        {
+          "rank": 499,
+          "entry": 876,
+          "team": "ALXHMISTHS",
+          "manager": "Sotiris Giadinis",
+          "total": 638,
+          "event_total": 67
+        },
+        {
+          "rank": 499,
+          "entry": 3133467,
+          "team": "Back to Square One",
+          "manager": "Marc DeCristofaro",
+          "total": 638,
+          "event_total": 50
+        },
+        {
+          "rank": 499,
+          "entry": 7736243,
+          "team": "A B M's Team",
+          "manager": "A B M NADIM",
+          "total": 638,
+          "event_total": 59
+        },
+        {
+          "rank": 499,
+          "entry": 155821,
+          "team": "Blue Frost",
+          "manager": "Nadim H",
+          "total": 638,
+          "event_total": 68
+        },
+        {
+          "rank": 499,
+          "entry": 747219,
+          "team": "Tacos FC",
+          "manager": "Alan Cortez",
+          "total": 638,
+          "event_total": 61
+        },
+        {
+          "rank": 499,
+          "entry": 239283,
+          "team": "Samstag",
+          "manager": "Samuel Jewell",
+          "total": 638,
+          "event_total": 42
         },
         {
           "rank": 499,
@@ -4101,36 +4077,28 @@
           "event_total": 58
         },
         {
-          "rank": 512,
-          "entry": 5897816,
-          "team": "Highfield Hotspurs",
-          "manager": "Andrew Griffin",
+          "rank": 499,
+          "entry": 176628,
+          "team": "zo7le2a",
+          "manager": "abdo nabil",
           "total": 638,
-          "event_total": 64
+          "event_total": 65
         },
         {
-          "rank": 512,
-          "entry": 648681,
-          "team": "Løsningsforslaget",
-          "manager": "Endre Berg Leiren",
+          "rank": 499,
+          "entry": 37443,
+          "team": "Linderpool",
+          "manager": "Michael Linder",
           "total": 638,
-          "event_total": 57
+          "event_total": 58
         },
         {
-          "rank": 512,
-          "entry": 273832,
-          "team": "Chris's Team",
-          "manager": "Chris Givens",
+          "rank": 499,
+          "entry": 10306,
+          "team": "Pełe",
+          "manager": "Przemek Pelka",
           "total": 638,
-          "event_total": 61
-        },
-        {
-          "rank": 512,
-          "entry": 243759,
-          "team": "xGI Joes",
-          "manager": "John Doering",
-          "total": 638,
-          "event_total": 56
+          "event_total": 60
         },
         {
           "rank": 512,
@@ -4150,11 +4118,11 @@
         },
         {
           "rank": 512,
-          "entry": 5638193,
-          "team": "Everybody Wirtz",
-          "manager": "Liam Birch",
+          "entry": 5897816,
+          "team": "Highfield Hotspurs",
+          "manager": "Andrew Griffin",
           "total": 638,
-          "event_total": 69
+          "event_total": 64
         },
         {
           "rank": 512,
@@ -4163,6 +4131,38 @@
           "manager": "Andri Nugraha",
           "total": 638,
           "event_total": 55
+        },
+        {
+          "rank": 512,
+          "entry": 243759,
+          "team": "xGI Joes",
+          "manager": "John Doering",
+          "total": 638,
+          "event_total": 56
+        },
+        {
+          "rank": 512,
+          "entry": 273832,
+          "team": "Chris's Team",
+          "manager": "Chris Givens",
+          "total": 638,
+          "event_total": 61
+        },
+        {
+          "rank": 512,
+          "entry": 648681,
+          "team": "Løsningsforslaget",
+          "manager": "Endre Berg Leiren",
+          "total": 638,
+          "event_total": 57
+        },
+        {
+          "rank": 512,
+          "entry": 5638193,
+          "team": "Everybody Wirtz",
+          "manager": "Liam Birch",
+          "total": 638,
+          "event_total": 69
         },
         {
           "rank": 520,
@@ -4190,30 +4190,6 @@
         },
         {
           "rank": 523,
-          "entry": 377,
-          "team": "Rasta FC",
-          "manager": "Bruno Raštegorac",
-          "total": 637,
-          "event_total": 70
-        },
-        {
-          "rank": 523,
-          "entry": 5865745,
-          "team": "Mtvare",
-          "manager": "David bakhsoliani",
-          "total": 637,
-          "event_total": 80
-        },
-        {
-          "rank": 523,
-          "entry": 61972,
-          "team": "Futbal Hunterz",
-          "manager": "Aditya Kandel",
-          "total": 637,
-          "event_total": 55
-        },
-        {
-          "rank": 523,
           "entry": 1600288,
           "team": "Råger Røvit",
           "manager": "Sverre Bergstrøm",
@@ -4222,75 +4198,11 @@
         },
         {
           "rank": 523,
-          "entry": 1070916,
-          "team": "Goal Diggers",
-          "manager": "Manolis Migkos",
-          "total": 637,
-          "event_total": 50
-        },
-        {
-          "rank": 523,
-          "entry": 240619,
-          "team": "Gansta’s Paredes",
-          "manager": "Brendan Russell-Cooper",
-          "total": 637,
-          "event_total": 70
-        },
-        {
-          "rank": 523,
-          "entry": 385707,
-          "team": "HaCunhaMateta",
-          "manager": "Kevin Acton",
-          "total": 637,
-          "event_total": 62
-        },
-        {
-          "rank": 523,
-          "entry": 3040446,
-          "team": "Haalandiances Online",
-          "manager": "Lucas Ng",
-          "total": 637,
-          "event_total": 65
-        },
-        {
-          "rank": 523,
-          "entry": 1856539,
-          "team": "No Salah No Problem",
-          "manager": "Rick Partridge",
-          "total": 637,
-          "event_total": 49
-        },
-        {
-          "rank": 523,
-          "entry": 63161,
-          "team": "Rosie's Babies",
-          "manager": "Rowan Varty",
-          "total": 637,
-          "event_total": 51
-        },
-        {
-          "rank": 523,
-          "entry": 5009449,
-          "team": "40 Year Old Virgil's",
-          "manager": "Kevin Gallagher",
-          "total": 637,
-          "event_total": 79
-        },
-        {
-          "rank": 523,
-          "entry": 2566536,
-          "team": "Hotel Calafiori",
-          "manager": "Ali Ghomeshi",
+          "entry": 61972,
+          "team": "Futbal Hunterz",
+          "manager": "Aditya Kandel",
           "total": 637,
           "event_total": 55
-        },
-        {
-          "rank": 523,
-          "entry": 1087298,
-          "team": "#AnyHigherThan17th?",
-          "manager": "Adam Norris",
-          "total": 637,
-          "event_total": 62
         },
         {
           "rank": 523,
@@ -4310,11 +4222,43 @@
         },
         {
           "rank": 523,
-          "entry": 88107,
-          "team": "Aiden's Team",
-          "manager": "Aiden Galligan",
+          "entry": 5009449,
+          "team": "40 Year Old Virgil's",
+          "manager": "Kevin Gallagher",
           "total": 637,
-          "event_total": 81
+          "event_total": 79
+        },
+        {
+          "rank": 523,
+          "entry": 385707,
+          "team": "HaCunhaMateta",
+          "manager": "Kevin Acton",
+          "total": 637,
+          "event_total": 62
+        },
+        {
+          "rank": 523,
+          "entry": 63161,
+          "team": "Rosie's Babies",
+          "manager": "Rowan Varty",
+          "total": 637,
+          "event_total": 51
+        },
+        {
+          "rank": 523,
+          "entry": 1087298,
+          "team": "#AnyHigherThan17th?",
+          "manager": "Adam Norris",
+          "total": 637,
+          "event_total": 62
+        },
+        {
+          "rank": 523,
+          "entry": 377,
+          "team": "Rasta FC",
+          "manager": "Bruno Raštegorac",
+          "total": 637,
+          "event_total": 70
         },
         {
           "rank": 523,
@@ -4325,28 +4269,68 @@
           "event_total": 52
         },
         {
-          "rank": 540,
-          "entry": 3707170,
-          "team": "A Steur is Born",
-          "manager": "James Clark",
+          "rank": 523,
+          "entry": 2566536,
+          "team": "Hotel Calafiori",
+          "manager": "Ali Ghomeshi",
           "total": 637,
-          "event_total": 47
+          "event_total": 55
         },
         {
-          "rank": 540,
-          "entry": 14380,
-          "team": "Flaming Galahs",
-          "manager": "Nancy Russell",
+          "rank": 523,
+          "entry": 1856539,
+          "team": "No Salah No Problem",
+          "manager": "Rick Partridge",
           "total": 637,
-          "event_total": 53
+          "event_total": 49
         },
         {
-          "rank": 540,
-          "entry": 2988052,
-          "team": "Endō the Line",
-          "manager": "Matija Roginic",
+          "rank": 523,
+          "entry": 5865745,
+          "team": "Mtvare",
+          "manager": "David bakhsoliani",
+          "total": 637,
+          "event_total": 80
+        },
+        {
+          "rank": 523,
+          "entry": 3040446,
+          "team": "Haalandiances Online",
+          "manager": "Lucas Ng",
           "total": 637,
           "event_total": 65
+        },
+        {
+          "rank": 523,
+          "entry": 240619,
+          "team": "Gansta’s Paredes",
+          "manager": "Brendan Russell-Cooper",
+          "total": 637,
+          "event_total": 70
+        },
+        {
+          "rank": 523,
+          "entry": 1070916,
+          "team": "Goal Diggers",
+          "manager": "Manolis Migkos",
+          "total": 637,
+          "event_total": 50
+        },
+        {
+          "rank": 523,
+          "entry": 88107,
+          "team": "Aiden's Team",
+          "manager": "Aiden Galligan",
+          "total": 637,
+          "event_total": 81
+        },
+        {
+          "rank": 540,
+          "entry": 1220519,
+          "team": "Simon's Team",
+          "manager": "Simon Bishop",
+          "total": 637,
+          "event_total": 59
         },
         {
           "rank": 540,
@@ -4358,17 +4342,9 @@
         },
         {
           "rank": 540,
-          "entry": 5632330,
-          "team": "monSTAR jp",
-          "manager": "JoePascal okoh",
-          "total": 637,
-          "event_total": 65
-        },
-        {
-          "rank": 540,
-          "entry": 1220519,
-          "team": "Simon's Team",
-          "manager": "Simon Bishop",
+          "entry": 12722,
+          "team": "Kiril's Team",
+          "manager": "Kiril Delev",
           "total": 637,
           "event_total": 59
         },
@@ -4390,27 +4366,51 @@
         },
         {
           "rank": 540,
-          "entry": 12722,
-          "team": "Kiril's Team",
-          "manager": "Kiril Delev",
+          "entry": 2988052,
+          "team": "Endō the Line",
+          "manager": "Matija Roginic",
           "total": 637,
-          "event_total": 59
+          "event_total": 65
+        },
+        {
+          "rank": 540,
+          "entry": 5632330,
+          "team": "monSTAR jp",
+          "manager": "JoePascal okoh",
+          "total": 637,
+          "event_total": 65
+        },
+        {
+          "rank": 540,
+          "entry": 14380,
+          "team": "Flaming Galahs",
+          "manager": "Nancy Russell",
+          "total": 637,
+          "event_total": 53
+        },
+        {
+          "rank": 540,
+          "entry": 3707170,
+          "team": "A Steur is Born",
+          "manager": "James Clark",
+          "total": 637,
+          "event_total": 47
         },
         {
           "rank": 549,
-          "entry": 776354,
-          "team": "Tangen Honda",
-          "manager": "Torstein Skeie",
+          "entry": 6874,
+          "team": "Black Swans XIX",
+          "manager": "Jonathan Clarke",
           "total": 637,
-          "event_total": 64
+          "event_total": 54
         },
         {
           "rank": 549,
-          "entry": 5363,
-          "team": "TACTICSTRUCK",
-          "manager": "Lee Jones",
+          "entry": 358323,
+          "team": "liverpool0205",
+          "manager": "Benny Liu",
           "total": 637,
-          "event_total": 81
+          "event_total": 67
         },
         {
           "rank": 549,
@@ -7214,43 +7214,11 @@
         },
         {
           "rank": 900,
-          "entry": 5004480,
-          "team": "hotstuffing",
-          "manager": "Manav Frohde",
+          "entry": 30739,
+          "team": "Astonmartin",
+          "manager": "Martin Levin",
           "total": 629,
-          "event_total": 63
-        },
-        {
-          "rank": 900,
-          "entry": 8533750,
-          "team": "ersoy's Team",
-          "manager": "ersoy hur",
-          "total": 629,
-          "event_total": 66
-        },
-        {
-          "rank": 900,
-          "entry": 137192,
-          "team": "Sonic Boom!!!",
-          "manager": "Gavin Teasdale",
-          "total": 629,
-          "event_total": 80
-        },
-        {
-          "rank": 900,
-          "entry": 387019,
-          "team": "Fabian's Team",
-          "manager": "Fabian Grant",
-          "total": 629,
-          "event_total": 62
-        },
-        {
-          "rank": 900,
-          "entry": 13204,
-          "team": "Morgan Donor",
-          "manager": "Joakim Olsson",
-          "total": 629,
-          "event_total": 65
+          "event_total": 58
         },
         {
           "rank": 900,
@@ -7262,35 +7230,19 @@
         },
         {
           "rank": 900,
+          "entry": 4871605,
+          "team": "Tzolucky fc",
+          "manager": "Alexis Stamatopoulos",
+          "total": 629,
+          "event_total": 60
+        },
+        {
+          "rank": 900,
           "entry": 3898988,
           "team": "ماجواير وعشر خشبات",
           "manager": "Ahmed Khatib",
           "total": 629,
           "event_total": 44
-        },
-        {
-          "rank": 900,
-          "entry": 592162,
-          "team": "Howard's Team",
-          "manager": "Howard Whiteley",
-          "total": 629,
-          "event_total": 47
-        },
-        {
-          "rank": 900,
-          "entry": 81973,
-          "team": "Real Bepis",
-          "manager": "Daniel Laycock",
-          "total": 629,
-          "event_total": 59
-        },
-        {
-          "rank": 900,
-          "entry": 2745995,
-          "team": "Eze Lover",
-          "manager": "Dan Green",
-          "total": 629,
-          "event_total": 59
         },
         {
           "rank": 900,
@@ -7302,51 +7254,75 @@
         },
         {
           "rank": 900,
-          "entry": 30739,
-          "team": "Astonmartin",
-          "manager": "Martin Levin",
-          "total": 629,
-          "event_total": 58
-        },
-        {
-          "rank": 900,
-          "entry": 4871605,
-          "team": "Tzolucky fc",
-          "manager": "Alexis Stamatopoulos",
-          "total": 629,
-          "event_total": 60
-        },
-        {
-          "rank": 914,
-          "entry": 642851,
-          "team": "WorldStar United",
-          "manager": "Scott Daniel",
+          "entry": 13204,
+          "team": "Morgan Donor",
+          "manager": "Joakim Olsson",
           "total": 629,
           "event_total": 65
         },
         {
-          "rank": 914,
-          "entry": 648054,
-          "team": "RossUtd",
-          "manager": "Gary Fitzpatrick",
+          "rank": 900,
+          "entry": 2745995,
+          "team": "Eze Lover",
+          "manager": "Dan Green",
+          "total": 629,
+          "event_total": 59
+        },
+        {
+          "rank": 900,
+          "entry": 137192,
+          "team": "Sonic Boom!!!",
+          "manager": "Gavin Teasdale",
+          "total": 629,
+          "event_total": 80
+        },
+        {
+          "rank": 900,
+          "entry": 81973,
+          "team": "Real Bepis",
+          "manager": "Daniel Laycock",
+          "total": 629,
+          "event_total": 59
+        },
+        {
+          "rank": 900,
+          "entry": 493448,
+          "team": "Santos Little Helper",
+          "manager": "Danni Davies",
+          "total": 629,
+          "event_total": 57
+        },
+        {
+          "rank": 900,
+          "entry": 592162,
+          "team": "Howard's Team",
+          "manager": "Howard Whiteley",
           "total": 629,
           "event_total": 47
         },
         {
-          "rank": 914,
-          "entry": 7825697,
-          "team": "Catch 40 Winks FC",
-          "manager": "Jonny Sharp",
+          "rank": 900,
+          "entry": 387019,
+          "team": "Fabian's Team",
+          "manager": "Fabian Grant",
           "total": 629,
-          "event_total": 74
+          "event_total": 62
+        },
+        {
+          "rank": 900,
+          "entry": 8533750,
+          "team": "ersoy's Team",
+          "manager": "ersoy hur",
+          "total": 629,
+          "event_total": 66
         },
         {
           "rank": 914,
-          "entry": 56610,
-          "team": "Traction Engine",
-          "manager": "Ted .",
+          "entry": 620695,
+          "team": "Forest Downunder",
+          "manager": "Jason Ellis",
           "total": 629,
-          "event_total": 50
+          "event_total": 61
         },
         {
           "rank": 914,
@@ -7358,9 +7334,105 @@
         },
         {
           "rank": 914,
-          "entry": 261057,
-          "team": "Hjorths Hjulbenta IF",
-          "manager": "Hampus Hjorth",
+          "entry": 7825697,
+          "team": "Catch 40 Winks FC",
+          "manager": "Jonny Sharp",
+          "total": 629,
+          "event_total": 74
+        },
+        {
+          "rank": 914,
+          "entry": 4049235,
+          "team": "FC Håkan Mild",
+          "manager": "Marcus Möller",
+          "total": 629,
+          "event_total": 46
+        },
+        {
+          "rank": 914,
+          "entry": 2192310,
+          "team": "Joaquin Roll dIsco",
+          "manager": "Ronan Broderick",
+          "total": 629,
+          "event_total": 51
+        },
+        {
+          "rank": 914,
+          "entry": 442314,
+          "team": "Reev FC",
+          "manager": "Ollie FW",
+          "total": 629,
+          "event_total": 55
+        },
+        {
+          "rank": 914,
+          "entry": 446658,
+          "team": "GangstersAllardyce",
+          "manager": "Joshua Roszczyk",
+          "total": 629,
+          "event_total": 61
+        },
+        {
+          "rank": 914,
+          "entry": 844982,
+          "team": "Sonnova Pitch",
+          "manager": "Tim Pursell",
+          "total": 629,
+          "event_total": 49
+        },
+        {
+          "rank": 914,
+          "entry": 56610,
+          "team": "Traction Engine",
+          "manager": "Ted .",
+          "total": 629,
+          "event_total": 50
+        },
+        {
+          "rank": 914,
+          "entry": 3382645,
+          "team": "C. B. Nirvana",
+          "manager": "Domagoj Udovicic",
+          "total": 629,
+          "event_total": 66
+        },
+        {
+          "rank": 914,
+          "entry": 648054,
+          "team": "RossUtd",
+          "manager": "Gary Fitzpatrick",
+          "total": 629,
+          "event_total": 47
+        },
+        {
+          "rank": 914,
+          "entry": 3077483,
+          "team": "sandman united",
+          "manager": "Sandesh Pahari",
+          "total": 629,
+          "event_total": 79
+        },
+        {
+          "rank": 914,
+          "entry": 9569,
+          "team": "Allensgers ⭐️",
+          "manager": "David Allen",
+          "total": 629,
+          "event_total": 70
+        },
+        {
+          "rank": 914,
+          "entry": 642851,
+          "team": "WorldStar United",
+          "manager": "Scott Daniel",
+          "total": 629,
+          "event_total": 65
+        },
+        {
+          "rank": 914,
+          "entry": 463039,
+          "team": "Calafiori Dreamin'",
+          "manager": "Oliver Williams",
           "total": 629,
           "event_total": 57
         },
@@ -7374,6 +7446,22 @@
         },
         {
           "rank": 914,
+          "entry": 348142,
+          "team": "Red Wedding",
+          "manager": "L J",
+          "total": 629,
+          "event_total": 51
+        },
+        {
+          "rank": 914,
+          "entry": 261057,
+          "team": "Hjorths Hjulbenta IF",
+          "manager": "Hampus Hjorth",
+          "total": 629,
+          "event_total": 57
+        },
+        {
+          "rank": 914,
           "entry": 458391,
           "team": "Bowen Arrows",
           "manager": "Nick Hilton",
@@ -7382,19 +7470,11 @@
         },
         {
           "rank": 914,
-          "entry": 844982,
-          "team": "Sonnova Pitch",
-          "manager": "Tim Pursell",
+          "entry": 258327,
+          "team": "Palmer Violets",
+          "manager": "Gary Tyler",
           "total": 629,
-          "event_total": 49
-        },
-        {
-          "rank": 914,
-          "entry": 4049235,
-          "team": "FC Håkan Mild",
-          "manager": "Marcus Möller",
-          "total": 629,
-          "event_total": 46
+          "event_total": 50
         },
         {
           "rank": 914,
@@ -7413,108 +7493,12 @@
           "event_total": 60
         },
         {
-          "rank": 914,
-          "entry": 258327,
-          "team": "Palmer Violets",
-          "manager": "Gary Tyler",
-          "total": 629,
-          "event_total": 50
-        },
-        {
-          "rank": 914,
-          "entry": 620695,
-          "team": "Forest Downunder",
-          "manager": "Jason Ellis",
-          "total": 629,
-          "event_total": 61
-        },
-        {
-          "rank": 914,
-          "entry": 446658,
-          "team": "GangstersAllardyce",
-          "manager": "Joshua Roszczyk",
-          "total": 629,
-          "event_total": 61
-        },
-        {
-          "rank": 914,
-          "entry": 3077483,
-          "team": "sandman united",
-          "manager": "Sandesh Pahari",
-          "total": 629,
-          "event_total": 79
-        },
-        {
-          "rank": 914,
-          "entry": 3382645,
-          "team": "C. B. Nirvana",
-          "manager": "Domagoj Udovicic",
-          "total": 629,
-          "event_total": 66
-        },
-        {
-          "rank": 914,
-          "entry": 463039,
-          "team": "Calafiori Dreamin'",
-          "manager": "Oliver Williams",
-          "total": 629,
-          "event_total": 57
-        },
-        {
-          "rank": 914,
-          "entry": 348142,
-          "team": "Red Wedding",
-          "manager": "L J",
-          "total": 629,
-          "event_total": 51
-        },
-        {
-          "rank": 914,
-          "entry": 442314,
-          "team": "Reev FC",
-          "manager": "Ollie FW",
-          "total": 629,
-          "event_total": 55
-        },
-        {
-          "rank": 914,
-          "entry": 9569,
-          "team": "Allensgers ⭐️",
-          "manager": "David Allen",
-          "total": 629,
-          "event_total": 70
-        },
-        {
-          "rank": 914,
-          "entry": 2192310,
-          "team": "Joaquin Roll dIsco",
-          "manager": "Ronan Broderick",
-          "total": 629,
-          "event_total": 51
-        },
-        {
           "rank": 936,
-          "entry": 5624,
-          "team": "Groß Misconduct",
-          "manager": "Curtis Botham",
-          "total": 629,
-          "event_total": 57
-        },
-        {
-          "rank": 936,
-          "entry": 1241295,
+          "entry": 4715580,
           "team": "Beef Cherki",
-          "manager": "Alex James",
+          "manager": "Adam Leonard",
           "total": 629,
-          "event_total": 55
-        },
-        {
-          "rank": 936,
-          "entry": 1010238,
-          "team": "Ocean's XI",
-          "manager": "Dwijesh Athrey",
-          "total": 629,
-          "event_total": 45
+          "event_total": 71
         },
         {
           "rank": 936,
@@ -7526,6 +7510,22 @@
         },
         {
           "rank": 936,
+          "entry": 1010238,
+          "team": "Ocean's XI",
+          "manager": "Dwijesh Athrey",
+          "total": 629,
+          "event_total": 45
+        },
+        {
+          "rank": 936,
+          "entry": 5624,
+          "team": "Groß Misconduct",
+          "manager": "Curtis Botham",
+          "total": 629,
+          "event_total": 57
+        },
+        {
+          "rank": 936,
           "entry": 10560,
           "team": "At Your Aunties",
           "manager": "Aaron Yaudes",
@@ -7534,11 +7534,11 @@
         },
         {
           "rank": 936,
-          "entry": 4715580,
+          "entry": 1241295,
           "team": "Beef Cherki",
-          "manager": "Adam Leonard",
+          "manager": "Alex James",
           "total": 629,
-          "event_total": 71
+          "event_total": 55
         },
         {
           "rank": 942,
@@ -7566,6 +7566,14 @@
         },
         {
           "rank": 945,
+          "entry": 56300,
+          "team": "riceisabottler",
+          "manager": "Stevie Warren",
+          "total": 628,
+          "event_total": 64
+        },
+        {
+          "rank": 945,
           "entry": 407784,
           "team": "Doom raiders",
           "manager": "Lorne Giles",
@@ -7581,36 +7589,12 @@
           "event_total": 63
         },
         {
-          "rank": 945,
-          "entry": 56300,
-          "team": "riceisabottler",
-          "manager": "Stevie Warren",
-          "total": 628,
-          "event_total": 64
-        },
-        {
           "rank": 948,
           "entry": 301418,
           "team": "Come on you reds",
           "manager": "Dag Kristiansen",
           "total": 628,
           "event_total": 61
-        },
-        {
-          "rank": 948,
-          "entry": 1244230,
-          "team": "Mean Machine",
-          "manager": "Devashish Srivastava",
-          "total": 628,
-          "event_total": 64
-        },
-        {
-          "rank": 948,
-          "entry": 14278,
-          "team": "Marwan's Team",
-          "manager": "Marwan Shehata",
-          "total": 628,
-          "event_total": 70
         },
         {
           "rank": 948,
@@ -7622,11 +7606,19 @@
         },
         {
           "rank": 948,
-          "entry": 145321,
-          "team": "Plasma Shots",
-          "manager": "Shrikant Verma",
+          "entry": 14278,
+          "team": "Marwan's Team",
+          "manager": "Marwan Shehata",
           "total": 628,
-          "event_total": 51
+          "event_total": 70
+        },
+        {
+          "rank": 948,
+          "entry": 1244230,
+          "team": "Mean Machine",
+          "manager": "Devashish Srivastava",
+          "total": 628,
+          "event_total": 64
         },
         {
           "rank": 948,
@@ -7637,20 +7629,20 @@
           "event_total": 68
         },
         {
-          "rank": 954,
-          "entry": 35810,
-          "team": "El Dopa",
-          "manager": "Abdul-Raheem Rafiq",
+          "rank": 948,
+          "entry": 145321,
+          "team": "Plasma Shots",
+          "manager": "Shrikant Verma",
           "total": 628,
-          "event_total": 84
+          "event_total": 51
         },
         {
           "rank": 954,
-          "entry": 51548,
-          "team": "Conor’s XI",
-          "manager": "Conor Buckley",
+          "entry": 200751,
+          "team": "Mortiferi",
+          "manager": "Siddhant Dhekne",
           "total": 628,
-          "event_total": 59
+          "event_total": 62
         },
         {
           "rank": 954,
@@ -7662,33 +7654,9 @@
         },
         {
           "rank": 954,
-          "entry": 17360,
-          "team": "HaaLaLa Land",
-          "manager": "Dibbendu Mukherjee",
-          "total": 628,
-          "event_total": 45
-        },
-        {
-          "rank": 954,
           "entry": 7405,
           "team": "STÆMNING FFC",
           "manager": "Rune Johnsen",
-          "total": 628,
-          "event_total": 50
-        },
-        {
-          "rank": 954,
-          "entry": 4282157,
-          "team": "Hazardous Hazard",
-          "manager": "Jonathan Feddema",
-          "total": 628,
-          "event_total": 65
-        },
-        {
-          "rank": 954,
-          "entry": 881,
-          "team": "100% AI rating",
-          "manager": "Markku Ojala",
           "total": 628,
           "event_total": 50
         },
@@ -7702,27 +7670,27 @@
         },
         {
           "rank": 954,
-          "entry": 200751,
-          "team": "Mortiferi",
-          "manager": "Siddhant Dhekne",
+          "entry": 881,
+          "team": "100% AI rating",
+          "manager": "Markku Ojala",
           "total": 628,
-          "event_total": 62
+          "event_total": 50
         },
         {
           "rank": 954,
-          "entry": 656545,
-          "team": "Georgia's Best",
-          "manager": "Titus Seah",
+          "entry": 35810,
+          "team": "El Dopa",
+          "manager": "Abdul-Raheem Rafiq",
           "total": 628,
-          "event_total": 60
+          "event_total": 84
         },
         {
           "rank": 954,
-          "entry": 3833,
-          "team": "Margot Brobbey",
-          "manager": "Aidan O'Boyle",
+          "entry": 17360,
+          "team": "HaaLaLa Land",
+          "manager": "Dibbendu Mukherjee",
           "total": 628,
-          "event_total": 60
+          "event_total": 45
         },
         {
           "rank": 954,
@@ -7734,83 +7702,43 @@
         },
         {
           "rank": 954,
+          "entry": 51548,
+          "team": "Conor’s XI",
+          "manager": "Conor Buckley",
+          "total": 628,
+          "event_total": 59
+        },
+        {
+          "rank": 954,
+          "entry": 656545,
+          "team": "Georgia's Best",
+          "manager": "Titus Seah",
+          "total": 628,
+          "event_total": 60
+        },
+        {
+          "rank": 954,
+          "entry": 4282157,
+          "team": "Hazardous Hazard",
+          "manager": "Jonathan Feddema",
+          "total": 628,
+          "event_total": 65
+        },
+        {
+          "rank": 954,
+          "entry": 3833,
+          "team": "Margot Brobbey",
+          "manager": "Aidan O'Boyle",
+          "total": 628,
+          "event_total": 60
+        },
+        {
+          "rank": 954,
           "entry": 132722,
           "team": "FPL Savant",
           "manager": "David Muller",
           "total": 628,
           "event_total": 70
-        },
-        {
-          "rank": 967,
-          "entry": 1774476,
-          "team": "MohTej",
-          "manager": "Mohit Patil",
-          "total": 628,
-          "event_total": 52
-        },
-        {
-          "rank": 967,
-          "entry": 96904,
-          "team": "Massive Attack",
-          "manager": "Magnus Wadsack",
-          "total": 628,
-          "event_total": 63
-        },
-        {
-          "rank": 967,
-          "entry": 2170366,
-          "team": "Smellsliketeamspirit",
-          "manager": "Neil Page",
-          "total": 628,
-          "event_total": 69
-        },
-        {
-          "rank": 967,
-          "entry": 2820031,
-          "team": "Ballon D'orgu",
-          "manager": "Connor Mitchell",
-          "total": 628,
-          "event_total": 55
-        },
-        {
-          "rank": 967,
-          "entry": 626210,
-          "team": "Les Baguettes",
-          "manager": "Emeric Sisask",
-          "total": 628,
-          "event_total": 74
-        },
-        {
-          "rank": 967,
-          "entry": 58557,
-          "team": "Englands Coming Home",
-          "manager": "Thomas Gray",
-          "total": 628,
-          "event_total": 68
-        },
-        {
-          "rank": 967,
-          "entry": 1822649,
-          "team": "WATP",
-          "manager": "james Carson",
-          "total": 628,
-          "event_total": 59
-        },
-        {
-          "rank": 967,
-          "entry": 58548,
-          "team": "Clinging to a Scheme",
-          "manager": "Joe Fuller",
-          "total": 628,
-          "event_total": 66
-        },
-        {
-          "rank": 967,
-          "entry": 184498,
-          "team": "AAA",
-          "manager": "Kharibold Narantuya",
-          "total": 628,
-          "event_total": 66
         },
         {
           "rank": 967,
@@ -7822,11 +7750,27 @@
         },
         {
           "rank": 967,
+          "entry": 184498,
+          "team": "AAA",
+          "manager": "Kharibold Narantuya",
+          "total": 628,
+          "event_total": 66
+        },
+        {
+          "rank": 967,
           "entry": 4208930,
           "team": "E.Thanchester City",
           "manager": "Ethan Robinson",
           "total": 628,
           "event_total": 37
+        },
+        {
+          "rank": 967,
+          "entry": 2820031,
+          "team": "Ballon D'orgu",
+          "manager": "Connor Mitchell",
+          "total": 628,
+          "event_total": 55
         },
         {
           "rank": 967,
@@ -7838,14 +7782,6 @@
         },
         {
           "rank": 967,
-          "entry": 3109042,
-          "team": "Rock N Iraola",
-          "manager": "Nir Lugaci🇮🇱",
-          "total": 628,
-          "event_total": 50
-        },
-        {
-          "rank": 967,
           "entry": 2341236,
           "team": "Red Devil Redemption",
           "manager": "Leon Thomas",
@@ -7854,19 +7790,19 @@
         },
         {
           "rank": 967,
-          "entry": 580335,
-          "team": "FlapJack FC",
-          "manager": "Ferdi Faudot",
+          "entry": 626210,
+          "team": "Les Baguettes",
+          "manager": "Emeric Sisask",
           "total": 628,
-          "event_total": 59
+          "event_total": 74
         },
         {
           "rank": 967,
-          "entry": 301665,
-          "team": "Dzookas",
-          "manager": "Sarunas Neciunskas",
+          "entry": 2170366,
+          "team": "Smellsliketeamspirit",
+          "manager": "Neil Page",
           "total": 628,
-          "event_total": 65
+          "event_total": 69
         },
         {
           "rank": 967,
@@ -7878,11 +7814,67 @@
         },
         {
           "rank": 967,
+          "entry": 301665,
+          "team": "Dzookas",
+          "manager": "Sarunas Neciunskas",
+          "total": 628,
+          "event_total": 65
+        },
+        {
+          "rank": 967,
+          "entry": 64672,
+          "team": "Tzolis in Solitude",
+          "manager": "tom steventon",
+          "total": 628,
+          "event_total": 52
+        },
+        {
+          "rank": 967,
+          "entry": 3109042,
+          "team": "Rock N Iraola",
+          "manager": "Nir Lugaci🇮🇱",
+          "total": 628,
+          "event_total": 50
+        },
+        {
+          "rank": 967,
+          "entry": 1822649,
+          "team": "WATP",
+          "manager": "james Carson",
+          "total": 628,
+          "event_total": 59
+        },
+        {
+          "rank": 967,
+          "entry": 96904,
+          "team": "Massive Attack",
+          "manager": "Magnus Wadsack",
+          "total": 628,
+          "event_total": 63
+        },
+        {
+          "rank": 967,
+          "entry": 580335,
+          "team": "FlapJack FC",
+          "manager": "Ferdi Faudot",
+          "total": 628,
+          "event_total": 59
+        },
+        {
+          "rank": 967,
           "entry": 515366,
           "team": "Boss FC",
           "manager": "Ahmed Elbossati",
           "total": 628,
           "event_total": 66
+        },
+        {
+          "rank": 967,
+          "entry": 1774476,
+          "team": "MohTej",
+          "manager": "Mohit Patil",
+          "total": 628,
+          "event_total": 52
         },
         {
           "rank": 967,
@@ -7894,35 +7886,27 @@
         },
         {
           "rank": 967,
-          "entry": 64672,
-          "team": "Tzolis in Solitude",
-          "manager": "tom steventon",
+          "entry": 58557,
+          "team": "Englands Coming Home",
+          "manager": "Thomas Gray",
           "total": 628,
-          "event_total": 52
+          "event_total": 68
+        },
+        {
+          "rank": 967,
+          "entry": 58548,
+          "team": "Clinging to a Scheme",
+          "manager": "Joe Fuller",
+          "total": 628,
+          "event_total": 66
         },
         {
           "rank": 987,
-          "entry": 70467,
-          "team": "stach of cash",
-          "manager": "kanishk b",
+          "entry": 2849972,
+          "team": "HighOnHouse",
+          "manager": "Prashant Chainani",
           "total": 628,
-          "event_total": 59
-        },
-        {
-          "rank": 987,
-          "entry": 1106274,
-          "team": "Salah-Squad",
-          "manager": "Salahiano -",
-          "total": 628,
-          "event_total": 56
-        },
-        {
-          "rank": 987,
-          "entry": 44240,
-          "team": "Diogo's Memory Lane",
-          "manager": "Jaskaran Singh",
-          "total": 628,
-          "event_total": 54
+          "event_total": 65
         },
         {
           "rank": 987,
@@ -7942,19 +7926,27 @@
         },
         {
           "rank": 987,
-          "entry": 5619358,
-          "team": "아카베이스",
-          "manager": "Miszorek Czapka",
+          "entry": 44240,
+          "team": "Diogo's Memory Lane",
+          "manager": "Jaskaran Singh",
           "total": 628,
-          "event_total": 47
+          "event_total": 54
         },
         {
           "rank": 987,
-          "entry": 92368,
-          "team": "Change Name",
-          "manager": "Shane McNamara",
+          "entry": 2140949,
+          "team": "Frekkas FC",
+          "manager": "Lars Tore Flåten",
           "total": 628,
-          "event_total": 78
+          "event_total": 59
+        },
+        {
+          "rank": 987,
+          "entry": 414279,
+          "team": "Wirtz Nightmare",
+          "manager": "Cathal Saunders",
+          "total": 628,
+          "event_total": 73
         },
         {
           "rank": 987,
@@ -7966,9 +7958,25 @@
         },
         {
           "rank": 987,
-          "entry": 2140949,
-          "team": "Frekkas FC",
-          "manager": "Lars Tore Flåten",
+          "entry": 5619358,
+          "team": "아카베이스",
+          "manager": "Miszorek Czapka",
+          "total": 628,
+          "event_total": 47
+        },
+        {
+          "rank": 987,
+          "entry": 1106274,
+          "team": "Salah-Squad",
+          "manager": "Salahiano -",
+          "total": 628,
+          "event_total": 56
+        },
+        {
+          "rank": 987,
+          "entry": 70467,
+          "team": "stach of cash",
+          "manager": "kanishk b",
           "total": 628,
           "event_total": 59
         },
@@ -7982,19 +7990,11 @@
         },
         {
           "rank": 987,
-          "entry": 2849972,
-          "team": "HighOnHouse",
-          "manager": "Prashant Chainani",
+          "entry": 92368,
+          "team": "Change Name",
+          "manager": "Shane McNamara",
           "total": 628,
-          "event_total": 65
-        },
-        {
-          "rank": 987,
-          "entry": 414279,
-          "team": "Wirtz Nightmare",
-          "manager": "Cathal Saunders",
-          "total": 628,
-          "event_total": 73
+          "event_total": 78
         },
         {
           "rank": 999,
