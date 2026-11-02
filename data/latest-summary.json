@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "entry_id": 1580840,
+  "collected_at_utc": "2026-11-02T01:40:58.743239Z",
+  "latest_public_squad_gameweek": 9,
+  "squad_scope": "post_deadline_public_only",
+  "live_predeadline_team_verified": false,
+  "current_bank_verified": false,
+  "current_free_transfers_verified": false,
+  "current_selling_prices_verified": false,
+  "next_gameweek": 10,
+  "next_deadline_utc": "2026-11-06T18:30:00Z",
+  "squad": [
+    {
+      "id": 384,
+      "name": "Donnarumma",
+      "club": "MCI",
+      "position": 1,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 55,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 31,
+      "name": "Konsa",
+      "club": "ARS",
+      "position": 2,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 47,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100
+    },
+    {
+      "id": 449,
+      "name": "Hall",
+      "club": "NEW",
+      "position": 3,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 53,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 175,
+      "name": "van Ewijk",
+      "club": "COV",
+      "position": 4,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 39,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100
+    },
+    {
+      "id": 236,
+      "name": "Dewsbury-Hall",
+      "club": "EVE",
+      "position": 5,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 66,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 68,
+      "name": "Tavernier",
+      "club": "BOU",
+      "position": 6,
+      "captain": false,
+      "vice_captain": true,
+      "current_market_price_tenths": 66,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 453,
+      "name": "Barnes",
+      "club": "NEW",
+      "position": 7,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 61,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 399,
+      "name": "Cherki",
+      "club": "MCI",
+      "position": 8,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 79,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 268,
+      "name": "King",
+      "club": "FUL",
+      "position": 9,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 55,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 411,
+      "name": "Haaland",
+      "club": "MCI",
+      "position": 10,
+      "captain": true,
+      "vice_captain": false,
+      "current_market_price_tenths": 158,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100
+    },
+    {
+      "id": 166,
+      "name": "N.Jackson",
+      "club": "AVL",
+      "position": 11,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 70,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 111,
+      "name": "Steele",
+      "club": "BHA",
+      "position": 12,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 40,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 8,
+      "name": "Calafiori",
+      "club": "ARS",
+      "position": 13,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 59,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100
+    },
+    {
+      "id": 249,
+      "name": "Barry",
+      "club": "EVE",
+      "position": 14,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 56,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    },
+    {
+      "id": 259,
+      "name": "Diop",
+      "club": "IPS",
+      "position": 15,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 39,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
+    }
+  ],
+  "confirmed_public_transfers_recent": [
+    {
+      "gameweek": 9,
+      "time": "2026-10-29T13:09:14.759695Z",
+      "out": "João Pedro",
+      "in": "N.Jackson",
+      "out_cost_tenths": 76,
+      "in_cost_tenths": 68
+    },
+    {
+      "gameweek": 9,
+      "time": "2026-10-26T02:42:15.689396Z",
+      "out": "B.Fernandes",
+      "in": "Tavernier",
+      "out_cost_tenths": 117,
+      "in_cost_tenths": 63
+    },
+    {
+      "gameweek": 7,
+      "time": "2026-10-13T05:26:01.655862Z",
+      "out": "Gibbs-White",
+      "in": "Cherki",
+      "out_cost_tenths": 80,
+      "in_cost_tenths": 78
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T15:17:52.080908Z",
+      "out": "Rogers",
+      "in": "Dewsbury-Hall",
+      "out_cost_tenths": 77,
+      "in_cost_tenths": 65
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T15:17:52.080631Z",
+      "out": "Gvardiol",
+      "in": "van Ewijk",
+      "out_cost_tenths": 57,
+      "in_cost_tenths": 40
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T15:17:52.080418Z",
+      "out": "Verbruggen",
+      "in": "Steele",
+      "out_cost_tenths": 45,
+      "in_cost_tenths": 40
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T15:17:52.080202Z",
+      "out": "Kinsky",
+      "in": "Donnarumma",
+      "out_cost_tenths": 45,
+      "in_cost_tenths": 55
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T15:17:52.079924Z",
+      "out": "Saka",
+      "in": "B.Fernandes",
+      "out_cost_tenths": 95,
+      "in_cost_tenths": 120
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.501936Z",
+      "out": "Palmer",
+      "in": "Rogers",
+      "out_cost_tenths": 97,
+      "in_cost_tenths": 77
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.501613Z",
+      "out": "Jacquet",
+      "in": "Gvardiol",
+      "out_cost_tenths": 50,
+      "in_cost_tenths": 57
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.501201Z",
+      "out": "Gabriel",
+      "in": "Calafiori",
+      "out_cost_tenths": 80,
+      "in_cost_tenths": 58
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.500686Z",
+      "out": "Hume",
+      "in": "Hall",
+      "out_cost_tenths": 44,
+      "in_cost_tenths": 52
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.500291Z",
+      "out": "Szoboszlai",
+      "in": "Gibbs-White",
+      "out_cost_tenths": 70,
+      "in_cost_tenths": 80
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.499922Z",
+      "out": "Tzolis",
+      "in": "Saka",
+      "out_cost_tenths": 64,
+      "in_cost_tenths": 95
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.499532Z",
+      "out": "E.Le Fée",
+      "in": "King",
+      "out_cost_tenths": 58,
+      "in_cost_tenths": 55
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.499128Z",
+      "out": "Slater",
+      "in": "Barnes",
+      "out_cost_tenths": 45,
+      "in_cost_tenths": 60
+    },
+    {
+      "gameweek": 5,
+      "time": "2026-09-18T10:21:28.498612Z",
+      "out": "McBurnie",
+      "in": "Barry",
+      "out_cost_tenths": 55,
+      "in_cost_tenths": 56
+    },
+    {
+      "gameweek": 4,
+      "time": "2026-09-11T02:57:44.108574Z",
+      "out": "B.Fernandes",
+      "in": "Palmer",
+      "out_cost_tenths": 120,
+      "in_cost_tenths": 97
+    },
+    {
+      "gameweek": 3,
+      "time": "2026-09-03T17:21:29.887213Z",
+      "out": "Rodon",
+      "in": "Konsa",
+      "out_cost_tenths": 45,
+      "in_cost_tenths": 44
+    },
+    {
+      "gameweek": 2,
+      "time": "2026-08-24T17:01:15.023714Z",
+      "out": "I.Sangaré",
+      "in": "Slater",
+      "out_cost_tenths": 50,
+      "in_cost_tenths": 45
+    }
+  ],
+  "recent_results": [
+    {
+      "event": 2,
+      "points": 84,
+      "total_points": 133,
+      "rank": 4231404,
+      "rank_sort": 4242352,
+      "overall_rank": 4258087,
+      "percentile_rank": 45,
+      "overall_rank_percentage": "43",
+      "bank": 5,
+      "value": 1001,
+      "event_transfers": 1,
+      "event_transfers_cost": 0,
+      "points_on_bench": 5
+    },
+    {
+      "event": 3,
+      "points": 50,
+      "total_points": 183,
+      "rank": 5859802,
+      "rank_sort": 5874495,
+      "overall_rank": 4498301,
+      "percentile_rank": 60,
+      "overall_rank_percentage": "43",
+      "bank": 6,
+      "value": 1001,
+      "event_transfers": 1,
+      "event_transfers_cost": 0,
+      "points_on_bench": 16
+    },
+    {
+      "event": 4,
+      "points": 74,
+      "total_points": 257,
+      "rank": 4032796,
+      "rank_sort": 4045416,
+      "overall_rank": 4034990,
+      "percentile_rank": 40,
+      "overall_rank_percentage": "38",
+      "bank": 29,
+      "value": 999,
+      "event_transfers": 1,
+      "event_transfers_cost": 0,
+      "points_on_bench": 9
+    },
+    {
+      "event": 5,
+      "points": 53,
+      "total_points": 310,
+      "rank": 3364483,
+      "rank_sort": 3384571,
+      "overall_rank": 3544727,
+      "percentile_rank": 35,
+      "overall_rank_percentage": "33",
+      "bank": 1,
+      "value": 1001,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 4
+    },
+    {
+      "event": 6,
+      "points": 65,
+      "total_points": 375,
+      "rank": 3414540,
+      "rank_sort": 3435901,
+      "overall_rank": 3240952,
+      "percentile_rank": 35,
+      "overall_rank_percentage": "29",
+      "bank": 1,
+      "value": 1006,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 10
+    },
+    {
+      "event": 7,
+      "points": 57,
+      "total_points": 432,
+      "rank": 6619128,
+      "rank_sort": 6628624,
+      "overall_rank": 3619857,
+      "percentile_rank": 60,
+      "overall_rank_percentage": "33",
+      "bank": 3,
+      "value": 1007,
+      "event_transfers": 1,
+      "event_transfers_cost": 0,
+      "points_on_bench": 4
+    },
+    {
+      "event": 8,
+      "points": 57,
+      "total_points": 489,
+      "rank": 1703285,
+      "rank_sort": 1717468,
+      "overall_rank": 2921638,
+      "percentile_rank": 20,
+      "overall_rank_percentage": "26",
+      "bank": 3,
+      "value": 1009,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 1
+    },
+    {
+      "event": 9,
+      "points": 35,
+      "total_points": 524,
+      "rank": 7700181,
+      "rank_sort": 7704304,
+      "overall_rank": 3546931,
+      "percentile_rank": 70,
+      "overall_rank_percentage": "32",
+      "bank": 65,
+      "value": 1008,
+      "event_transfers": 2,
+      "event_transfers_cost": 0,
+      "points_on_bench": 10
+    }
+  ],
+  "used_chips": [
+    {
+      "name": "wildcard",
+      "time": "2026-09-17T21:44:37.582852Z",
+      "event": 5
+    }
+  ],
+  "notes": [
+    "Public picks represent the most recently published deadline, not the live editable team.",
+    "Market prices are not the manager's selling prices.",
+    "Public transfer publication may lag live changes.",
+    "Do not prescribe an unconditional affordable transfer without live bank, selling prices and FT count."
+  ]
+}
