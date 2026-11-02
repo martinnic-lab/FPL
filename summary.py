@@ -13,6 +13,7 @@ def build(snapshot):
     gameweeks = history["current"]
     latest = max((r["event"] for r in gameweeks), default=None)
     next_event = next((e for e in events if e.get("is_next")), None)
+    current_event = next((e for e in events if e.get("is_current")), None)
     if next_event is None:
         next_event = next((e for e in events if not e.get("finished") and
                            datetime.fromisoformat(e["deadline_time"].replace("Z", "+00:00")) >
@@ -49,6 +50,10 @@ def build(snapshot):
         "current_bank_verified": False,
         "current_free_transfers_verified": False,
         "current_selling_prices_verified": False,
+        "current_gameweek": current_event["id"] if current_event else None,
+        "current_gameweek_finished": current_event.get("finished") if current_event else None,
+        "current_gameweek_data_checked": current_event.get("data_checked") if current_event else None,
+        "latest_public_squad_gameweek_finished": next((e.get("finished") for e in events if e["id"] == latest), None),
         "next_gameweek": next_event["id"] if next_event else None,
         "next_deadline_utc": next_event["deadline_time"] if next_event else None,
         "squad": player_rows,
@@ -59,7 +64,9 @@ def build(snapshot):
             "Public picks represent the most recently published deadline, not the live editable team.",
             "Market prices are not the manager's selling prices.",
             "Public transfer publication may lag live changes.",
-            "Do not prescribe an unconditional affordable transfer without live bank, selling prices and FT count."
+            "Do not prescribe an unconditional affordable transfer without live bank, selling prices and FT count.",
+            "Do not call a gameweek complete unless the official finished flag is true.",
+            "Check match appearances and dated team news before repeating an old injury warning."
         ]
     }
 
