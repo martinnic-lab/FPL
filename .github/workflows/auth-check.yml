@@ -1,0 +1,15 @@
+name: Verify private FPL session (read-only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check authenticated FPL session without publishing private data
+        env:
+          FPL_SESSION_COOKIE: ${{ secrets.FPL_SESSION_COOKIE }}
+        run: python auth_probe.py
