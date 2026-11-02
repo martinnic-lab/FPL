@@ -1,13 +1,17 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-02T12:36:38.908647Z",
+  "collected_at_utc": "2026-11-02T12:38:10.733528Z",
   "latest_public_squad_gameweek": 9,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
   "current_bank_verified": false,
   "current_free_transfers_verified": false,
   "current_selling_prices_verified": false,
+  "current_gameweek": 9,
+  "current_gameweek_finished": false,
+  "current_gameweek_data_checked": false,
+  "latest_public_squad_gameweek_finished": false,
   "next_gameweek": 10,
   "next_deadline_utc": "2026-11-06T18:30:00Z",
   "squad": [
@@ -487,6 +491,8 @@
     "Public picks represent the most recently published deadline, not the live editable team.",
     "Market prices are not the manager's selling prices.",
     "Public transfer publication may lag live changes.",
-    "Do not prescribe an unconditional affordable transfer without live bank, selling prices and FT count."
+    "Do not prescribe an unconditional affordable transfer without live bank, selling prices and FT count.",
+    "Do not call a gameweek complete unless the official finished flag is true.",
+    "Check match appearances and dated team news before repeating an old injury warning."
   ]
 }
