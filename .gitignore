@@ -4,3 +4,5 @@ __pycache__/
 .env
 .env.*
 *.tmp
+private-live.json
+data/private-*.json
