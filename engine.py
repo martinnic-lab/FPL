@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from itertools import combinations
 import json
 from pathlib import Path
+from chip_planner import chip_screen
 
 POSITIONS = {1: 2, 2: 5, 3: 5, 4: 3}
 MAX_CLUB = 3
@@ -189,6 +190,7 @@ def main():
     sell = {int(k): v for k, v in live.get("sell_prices_tenths", {}).items()} if live else None
     result = optimize(ids, players, weeks, forecasts, live.get("bank_tenths"),
                       sell, live.get("free_transfers"))
+    result["chip_screen"] = chip_screen(result["current_lineups"], snapshot["sources"]["history"]["data"].get("chips", []))
     result.update({"generated_at_utc": datetime.now(timezone.utc).isoformat(),
                    "snapshot_collected_at_utc": snapshot["completed_at"],
                    "public_squad_gw": gw, "forecast_gameweeks": weeks,
