@@ -72,3 +72,7 @@ from public endpoints; no manager profile/name/email endpoint is collected.
 
 Initial live API retrieval has not been verified in the authoring environment.
 Run the manual workflow after installation to create the first real snapshot.
+
+## Decision policy and model status
+
+Read [DECISION_POLICY.md](DECISION_POLICY.md) before any transfer, captaincy, lineup, price or chip recommendation. **Cumbres data is collected for reporting only** and is forbidden as an optimizer input. The collector is operational; the calibrated forecasting engine, multiweek solver, chip-aware optimizer and backtesting described in the policy are **not yet implemented**. Until tested, label recommendations research-informed/provisional, never optimized. Do not infer live bank/FT/selling prices from public post-deadline picks.
