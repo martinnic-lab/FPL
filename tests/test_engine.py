@@ -8,7 +8,7 @@ def players():
     k = 1
     for pos, count in ((1, 3), (2, 8), (3, 8), (4, 5)):
         for j in range(count):
-            d[k] = {"id": k, "element_type": pos, "team": j + 1,
+            d[k] = {"id": k, "element_type": pos, "team": k,
                     "now_cost": 50, "status": "a"}
             k += 1
     return d
