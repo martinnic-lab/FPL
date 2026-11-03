@@ -6,6 +6,8 @@ on:
   push:
     paths:
       - collector.py
+      - engine.py
+      - chip_planner.py
       - leagues.py
       - cumbres.py
       - tests/**
@@ -32,6 +34,8 @@ jobs:
         run: python collector.py
       - name: Build compact decision summary
         run: python summary.py
+      - name: Generate independent baseline decision screen
+        run: python engine.py
       - name: Collect public mini-league standings
         run: python leagues.py
       - name: Audit Cumbres public rival squads
@@ -43,7 +47,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/snapshots/*.json data/latest-summary.json data/latest-leagues.json data/latest-cumbres-rivals.json
+          git add data/snapshots/*.json data/latest-summary.json data/latest-leagues.json data/latest-cumbres-rivals.json data/latest-engine.json
           git diff --cached --quiet && exit 0
           git commit -m 'data: collect validated public FPL snapshot'
           auth_header="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
