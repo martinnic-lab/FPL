@@ -1,0 +1,242 @@
+{
+  "current_weighted_points": 336.233,
+  "current_lineups": {
+    "10": {
+      "xi": [
+        384,
+        31,
+        175,
+        236,
+        68,
+        453,
+        268,
+        411,
+        166,
+        8,
+        249
+      ],
+      "bench": [
+        449,
+        399,
+        259,
+        111
+      ],
+      "captain": 31,
+      "vice": 166,
+      "expected": 68.395,
+      "bench_boost_increment": 7.474,
+      "triple_captain_increment": 9.522
+    },
+    "11": {
+      "xi": [
+        384,
+        31,
+        449,
+        175,
+        236,
+        68,
+        453,
+        411,
+        166,
+        8,
+        249
+      ],
+      "bench": [
+        399,
+        268,
+        259,
+        111
+      ],
+      "captain": 31,
+      "vice": 166,
+      "expected": 68.007,
+      "bench_boost_increment": 7.723,
+      "triple_captain_increment": 8.878
+    },
+    "12": {
+      "xi": [
+        384,
+        31,
+        175,
+        236,
+        68,
+        453,
+        268,
+        411,
+        166,
+        8,
+        249
+      ],
+      "bench": [
+        449,
+        399,
+        259,
+        111
+      ],
+      "captain": 31,
+      "vice": 166,
+      "expected": 68.395,
+      "bench_boost_increment": 7.474,
+      "triple_captain_increment": 9.522
+    },
+    "13": {
+      "xi": [
+        384,
+        31,
+        449,
+        175,
+        236,
+        68,
+        453,
+        411,
+        166,
+        8,
+        249
+      ],
+      "bench": [
+        399,
+        268,
+        259,
+        111
+      ],
+      "captain": 31,
+      "vice": 166,
+      "expected": 68.007,
+      "bench_boost_increment": 7.723,
+      "triple_captain_increment": 8.878
+    },
+    "14": {
+      "xi": [
+        384,
+        31,
+        449,
+        175,
+        236,
+        68,
+        453,
+        411,
+        166,
+        8,
+        249
+      ],
+      "bench": [
+        268,
+        399,
+        259,
+        111
+      ],
+      "captain": 31,
+      "vice": 166,
+      "expected": 67.755,
+      "bench_boost_increment": 7.527,
+      "triple_captain_increment": 8.878
+    },
+    "15": {
+      "xi": [
+        384,
+        31,
+        175,
+        236,
+        68,
+        453,
+        268,
+        411,
+        166,
+        8,
+        249
+      ],
+      "bench": [
+        399,
+        449,
+        259,
+        111
+      ],
+      "captain": 31,
+      "vice": 166,
+      "expected": 68.647,
+      "bench_boost_increment": 7.67,
+      "triple_captain_increment": 9.522
+    }
+  },
+  "status": "lineup_only",
+  "plans": [],
+  "caveats": [
+    "Official ep_next fixture-adjusted heuristic, not calibrated forecasts.",
+    "Static six-week squad: no future transfers, auto-sub simulation or chip sequencing.",
+    "No Cumbres data used.",
+    "Verified live bank, free transfers and selling prices required for affordable transfers."
+  ],
+  "chip_screen": {
+    "remaining_first_half_chips": [
+      "bboost",
+      "3xc",
+      "freehit"
+    ],
+    "weeks_considered": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "top_static_assignments": [
+      {
+        "chip_weeks": {
+          "bboost": 11,
+          "3xc": 10
+        },
+        "incremental_points_before_setup": 17.245
+      },
+      {
+        "chip_weeks": {
+          "bboost": 11,
+          "3xc": 12
+        },
+        "incremental_points_before_setup": 17.245
+      },
+      {
+        "chip_weeks": {
+          "bboost": 11,
+          "3xc": 15
+        },
+        "incremental_points_before_setup": 17.245
+      },
+      {
+        "chip_weeks": {
+          "bboost": 13,
+          "3xc": 10
+        },
+        "incremental_points_before_setup": 17.245
+      },
+      {
+        "chip_weeks": {
+          "bboost": 13,
+          "3xc": 12
+        },
+        "incremental_points_before_setup": 17.245
+      }
+    ],
+    "free_hit_status": "unmodeled_requires_temporary_squad_optimizer",
+    "warnings": [
+      "Chip history must be verified from refreshed official API.",
+      "This is a static squad screening, not a chip-aware transfer plan.",
+      "First-half chips expire at the GW19 deadline; do not treat missing future GWs as zero.",
+      "Only one chip per GW; no chip is committed by this output."
+    ]
+  },
+  "generated_at_utc": "2026-11-03T04:06:17.087260+00:00",
+  "snapshot_collected_at_utc": "2026-11-03T04:06:16.631039Z",
+  "public_squad_gw": 9,
+  "forecast_gameweeks": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "forecast_method": "uncalibrated_official_ep_next_fixture_adjusted",
+  "live_team_verified": false,
+  "cumbres_is_optimizer_input": false
+}

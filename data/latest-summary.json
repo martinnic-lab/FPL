@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-02T18:45:20.966896Z",
+  "collected_at_utc": "2026-11-03T04:06:16.631039Z",
   "latest_public_squad_gameweek": 9,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
@@ -466,18 +466,18 @@
     },
     {
       "event": 9,
-      "points": 35,
-      "total_points": 524,
-      "rank": 7700181,
-      "rank_sort": 7704304,
-      "overall_rank": 3546931,
-      "percentile_rank": 70,
-      "overall_rank_percentage": "32",
+      "points": 42,
+      "total_points": 531,
+      "rank": 6281436,
+      "rank_sort": 6288225,
+      "overall_rank": 3261154,
+      "percentile_rank": 60,
+      "overall_rank_percentage": "29",
       "bank": 65,
       "value": 1008,
       "event_transfers": 2,
       "event_transfers_cost": 0,
-      "points_on_bench": 10
+      "points_on_bench": 17
     }
   ],
   "used_chips": [
