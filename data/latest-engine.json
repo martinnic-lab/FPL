@@ -225,8 +225,8 @@
       "Only one chip per GW; no chip is committed by this output."
     ]
   },
-  "generated_at_utc": "2026-11-03T21:51:56.236999+00:00",
-  "snapshot_collected_at_utc": "2026-11-03T21:51:55.827347Z",
+  "generated_at_utc": "2026-11-04T06:27:19.708676+00:00",
+  "snapshot_collected_at_utc": "2026-11-04T06:27:19.240016Z",
   "public_squad_gw": 9,
   "forecast_gameweeks": [
     10,
