@@ -1,5 +1,5 @@
 {
-  "current_weighted_points": 336.233,
+  "current_weighted_points": 319.902,
   "current_lineups": {
     "10": {
       "xi": [
@@ -21,11 +21,11 @@
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 68.395,
+      "captain": 166,
+      "vice": 31,
+      "expected": 64.405,
       "bench_boost_increment": 7.474,
-      "triple_captain_increment": 9.522
+      "triple_captain_increment": 7.913
     },
     "11": {
       "xi": [
@@ -47,11 +47,11 @@
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 68.007,
+      "captain": 166,
+      "vice": 411,
+      "expected": 65.397,
       "bench_boost_increment": 7.723,
-      "triple_captain_increment": 8.878
+      "triple_captain_increment": 8.487
     },
     "12": {
       "xi": [
@@ -73,11 +73,11 @@
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 68.395,
+      "captain": 166,
+      "vice": 31,
+      "expected": 64.405,
       "bench_boost_increment": 7.474,
-      "triple_captain_increment": 9.522
+      "triple_captain_increment": 7.913
     },
     "13": {
       "xi": [
@@ -99,11 +99,11 @@
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 68.007,
+      "captain": 166,
+      "vice": 411,
+      "expected": 65.397,
       "bench_boost_increment": 7.723,
-      "triple_captain_increment": 8.878
+      "triple_captain_increment": 8.487
     },
     "14": {
       "xi": [
@@ -125,11 +125,11 @@
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 67.755,
+      "captain": 166,
+      "vice": 411,
+      "expected": 65.145,
       "bench_boost_increment": 7.527,
-      "triple_captain_increment": 8.878
+      "triple_captain_increment": 8.487
     },
     "15": {
       "xi": [
@@ -151,11 +151,11 @@
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 68.647,
+      "captain": 166,
+      "vice": 411,
+      "expected": 64.657,
       "bench_boost_increment": 7.67,
-      "triple_captain_increment": 9.522
+      "triple_captain_increment": 7.913
     }
   },
   "status": "lineup_only",
@@ -184,37 +184,37 @@
       {
         "chip_weeks": {
           "bboost": 11,
-          "3xc": 10
+          "3xc": 13
         },
-        "incremental_points_before_setup": 17.245
+        "incremental_points_before_setup": 16.21
       },
       {
         "chip_weeks": {
           "bboost": 11,
-          "3xc": 12
+          "3xc": 14
         },
-        "incremental_points_before_setup": 17.245
-      },
-      {
-        "chip_weeks": {
-          "bboost": 11,
-          "3xc": 15
-        },
-        "incremental_points_before_setup": 17.245
+        "incremental_points_before_setup": 16.21
       },
       {
         "chip_weeks": {
           "bboost": 13,
-          "3xc": 10
+          "3xc": 11
         },
-        "incremental_points_before_setup": 17.245
+        "incremental_points_before_setup": 16.21
       },
       {
         "chip_weeks": {
           "bboost": 13,
-          "3xc": 12
+          "3xc": 14
         },
-        "incremental_points_before_setup": 17.245
+        "incremental_points_before_setup": 16.21
+      },
+      {
+        "chip_weeks": {
+          "bboost": 15,
+          "3xc": 11
+        },
+        "incremental_points_before_setup": 16.157
       }
     ],
     "free_hit_status": "unmodeled_requires_temporary_squad_optimizer",
@@ -225,8 +225,8 @@
       "Only one chip per GW; no chip is committed by this output."
     ]
   },
-  "generated_at_utc": "2026-11-05T16:29:28.877270+00:00",
-  "snapshot_collected_at_utc": "2026-11-05T16:29:28.408894Z",
+  "generated_at_utc": "2026-11-06T06:51:07.768784+00:00",
+  "snapshot_collected_at_utc": "2026-11-06T06:51:07.498749Z",
   "public_squad_gw": 9,
   "forecast_gameweeks": [
     10,
