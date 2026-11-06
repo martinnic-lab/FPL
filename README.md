@@ -75,4 +75,10 @@ Run the manual workflow after installation to create the first real snapshot.
 
 ## Decision policy and model status
 
+The new [research engine](RESEARCH_ENGINE.md) adds source/provenance validation,
+point-in-time calibration evaluation, conditional sequential planning and paired
+decision auditing. Scheduled output is now evidence-gated: missing source-backed
+forecasts produce a blocked status, not manufactured xPts. Real calibration and
+continuous season backtesting remain pending; see the staged acceptance checklist.
+
 Read [DECISION_POLICY.md](DECISION_POLICY.md) before any transfer, captaincy, lineup, price or chip recommendation. **Cumbres data is collected for reporting only** and is forbidden as an optimizer input. The collector is operational; the calibrated forecasting engine, multiweek solver, chip-aware optimizer and backtesting described in the policy are **not yet implemented**. Until tested, label recommendations research-informed/provisional, never optimized. Do not infer live bank/FT/selling prices from public post-deadline picks.

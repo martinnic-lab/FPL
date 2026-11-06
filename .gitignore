@@ -5,4 +5,6 @@ __pycache__/
 .env.*
 *.tmp
 private-live.json
+private-*.json
+work/
 data/private-*.json
