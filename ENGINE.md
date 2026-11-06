@@ -1,5 +1,9 @@
 # Independent FPL engine — baseline implementation
 
+**Legacy interface.** Scheduled reports now use the evidence-gated
+[staged research engine](RESEARCH_ENGINE.md). The `engine.py` heuristic below is
+retained for compatibility; it is not used to produce scheduled recommendations.
+
 This is a **working baseline screening engine**, not yet a calibrated season optimizer. Read [DECISION_POLICY.md](DECISION_POLICY.md).
 
 ## Inputs and execution
