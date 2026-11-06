@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-06T15:57:19.538247Z",
-  "latest_public_squad_gameweek": 9,
+  "collected_at_utc": "2026-11-06T21:31:49.154925Z",
+  "latest_public_squad_gameweek": 10,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
   "current_bank_verified": false,
   "current_free_transfers_verified": false,
   "current_selling_prices_verified": false,
-  "current_gameweek": 9,
-  "current_gameweek_finished": true,
-  "current_gameweek_data_checked": true,
-  "latest_public_squad_gameweek_finished": true,
-  "next_gameweek": 10,
-  "next_deadline_utc": "2026-11-06T18:30:00Z",
+  "current_gameweek": 10,
+  "current_gameweek_finished": false,
+  "current_gameweek_data_checked": false,
+  "latest_public_squad_gameweek_finished": false,
+  "next_gameweek": 11,
+  "next_deadline_utc": "2026-11-21T11:00:00Z",
   "squad": [
     {
       "id": 384,
@@ -40,28 +40,28 @@
       "chance_next_round": 100
     },
     {
-      "id": 449,
-      "name": "Hall",
-      "club": "NEW",
+      "id": 8,
+      "name": "Calafiori",
+      "club": "ARS",
       "position": 3,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 53,
-      "status": "a",
-      "news": "",
-      "chance_next_round": null
-    },
-    {
-      "id": 175,
-      "name": "van Ewijk",
-      "club": "COV",
-      "position": 4,
-      "captain": false,
-      "vice_captain": false,
-      "current_market_price_tenths": 39,
+      "current_market_price_tenths": 59,
       "status": "a",
       "news": "",
       "chance_next_round": 100
+    },
+    {
+      "id": 115,
+      "name": "De Cuyper",
+      "club": "BHA",
+      "position": 4,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 54,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
     },
     {
       "id": 236,
@@ -88,16 +88,16 @@
       "chance_next_round": null
     },
     {
-      "id": 453,
-      "name": "Barnes",
-      "club": "NEW",
+      "id": 154,
+      "name": "Palmer",
+      "club": "CHE",
       "position": 7,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 61,
+      "current_market_price_tenths": 98,
       "status": "a",
       "news": "",
-      "chance_next_round": null
+      "chance_next_round": 100
     },
     {
       "id": 399,
@@ -112,28 +112,28 @@
       "chance_next_round": null
     },
     {
-      "id": 268,
-      "name": "King",
-      "club": "FUL",
-      "position": 9,
-      "captain": false,
-      "vice_captain": false,
-      "current_market_price_tenths": 55,
-      "status": "a",
-      "news": "",
-      "chance_next_round": null
-    },
-    {
       "id": 411,
       "name": "Haaland",
       "club": "MCI",
-      "position": 10,
+      "position": 9,
       "captain": true,
       "vice_captain": false,
       "current_market_price_tenths": 158,
       "status": "a",
       "news": "",
       "chance_next_round": 100
+    },
+    {
+      "id": 249,
+      "name": "Barry",
+      "club": "EVE",
+      "position": 10,
+      "captain": false,
+      "vice_captain": false,
+      "current_market_price_tenths": 56,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null
     },
     {
       "id": 166,
@@ -160,25 +160,25 @@
       "chance_next_round": null
     },
     {
-      "id": 8,
-      "name": "Calafiori",
-      "club": "ARS",
+      "id": 449,
+      "name": "Hall",
+      "club": "NEW",
       "position": 13,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 59,
+      "current_market_price_tenths": 53,
       "status": "a",
       "news": "",
-      "chance_next_round": 100
+      "chance_next_round": null
     },
     {
-      "id": 249,
-      "name": "Barry",
-      "club": "EVE",
+      "id": 268,
+      "name": "King",
+      "club": "FUL",
       "position": 14,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 56,
+      "current_market_price_tenths": 55,
       "status": "a",
       "news": "",
       "chance_next_round": null
@@ -197,6 +197,22 @@
     }
   ],
   "confirmed_public_transfers_recent": [
+    {
+      "gameweek": 10,
+      "time": "2026-11-06T18:09:55.123807Z",
+      "out": "Barnes",
+      "in": "Palmer",
+      "out_cost_tenths": 60,
+      "in_cost_tenths": 98
+    },
+    {
+      "gameweek": 10,
+      "time": "2026-11-06T18:09:55.118791Z",
+      "out": "van Ewijk",
+      "in": "De Cuyper",
+      "out_cost_tenths": 39,
+      "in_cost_tenths": 54
+    },
     {
       "gameweek": 9,
       "time": "2026-10-29T13:09:14.759695Z",
@@ -360,21 +376,6 @@
   ],
   "recent_results": [
     {
-      "event": 2,
-      "points": 84,
-      "total_points": 133,
-      "rank": 4231404,
-      "rank_sort": 4242352,
-      "overall_rank": 4258087,
-      "percentile_rank": 45,
-      "overall_rank_percentage": "43",
-      "bank": 5,
-      "value": 1001,
-      "event_transfers": 1,
-      "event_transfers_cost": 0,
-      "points_on_bench": 5
-    },
-    {
       "event": 3,
       "points": 50,
       "total_points": 183,
@@ -478,6 +479,21 @@
       "event_transfers": 2,
       "event_transfers_cost": 0,
       "points_on_bench": 17
+    },
+    {
+      "event": 10,
+      "points": 0,
+      "total_points": 532,
+      "rank": null,
+      "rank_sort": null,
+      "overall_rank": 3336229,
+      "percentile_rank": null,
+      "overall_rank_percentage": null,
+      "bank": 12,
+      "value": 1008,
+      "event_transfers": 2,
+      "event_transfers_cost": 0,
+      "points_on_bench": 0
     }
   ],
   "used_chips": [
