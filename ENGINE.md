@@ -28,10 +28,10 @@ Example values above are **illustrative only**; all 15 owned players require rea
 ## Implemented
 
 - Official snapshot input, current post-deadline public squad, next six deadlines and fixtures.
-- Conservative *uncalibrated* official `ep_next` baseline, fixture-strength adjustment and discounting. This is a screening heuristic, not an empirically validated xPts forecast.
+- Conservative *uncalibrated* official `ep_next` baseline for **the next GW only**; never recycle next-GW forecasts into later gameweeks. Independent timestamped multiweek projections may be supplied via `--projections`. This is a screening heuristic, not an empirically validated xPts forecast.
 - Exact legal XI search over formations, goalkeeper, captain, vice and ordered substitutes; 15-player squad validation and maximum three per club.
 - Compare rolling with zero/one/two legal transfers; affordability from verified selling prices and bank; four-point hits for transfers beyond free transfers.
-- Static first-half Bench Boost and Triple Captain opportunity screen; mutually exclusive gameweeks and explicit first-half expiry warning.
+- Static first-half Bench Boost and Triple Captain opportunity screen only when independently supplied multiweek projections cover at least six GWs; otherwise chip scheduling is explicitly withheld.
 - Explicit **no live finance → no transfer recommendations** gate.
 - Cumbres data deliberately excluded from the engine's inputs. Its collector and reports remain separate.
 - Unit tests for legality, lineup, missing live details, transfers and chips.
@@ -44,8 +44,12 @@ Example values above are **illustrative only**; all 15 owned players require rea
 - Full squad optimization (rather than bounded candidate screening), ensemble calibration and out-of-sample decision auditing.
 - Authenticated live team, live bank/FT/selling prices. **Public data alone cannot provide them.**
 
-The default scheduled output `data/latest-engine.json` is **lineup-only** unless verified live data is explicitly provided. Never treat the heuristic output as sufficient evidence to execute transfers.
+The default scheduled output `data/latest-engine.json` is **next-GW lineup-only** unless verified live data is explicitly provided. Multiweek estimates require independent per-GW projections. Never treat the heuristic output as sufficient evidence to execute transfers.
 
 ## Safety and separation
 
 No credentials are collected. Never commit `private-live.json` or personal auth tokens. Price-watch alerts are independent of Cumbres ownership. Cumbres standings, rivals and captaincy can be viewed for entertainment, but must not enter feature engineering or decisions.
+
+## Independent projections input
+
+Use `python engine.py --projections forecasts.json` with a timestamped JSON file containing exactly `schema_version: 1`, `source` (nonempty independent provenance), `generated_at_utc` (within 72 hours), `gameweeks` (sorted list of up to six future GW IDs) and `players` (object mapping **every official player ID** to an object of string GW IDs and numeric nonnegative expected points). This input is schema-validated, **not statistically calibrated by this repository**. No Cumbres ownership, captains or rival standings are accepted. Multiweek screening remains static and excludes future transfer sequencing.
