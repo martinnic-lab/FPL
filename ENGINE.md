@@ -53,3 +53,11 @@ No credentials are collected. Never commit `private-live.json` or personal auth 
 ## Independent projections input
 
 Use `python engine.py --projections forecasts.json` with a timestamped JSON file containing exactly `schema_version: 1`, `source` (nonempty independent provenance), `generated_at_utc` (within 72 hours), `gameweeks` (sorted list of up to six future GW IDs) and `players` (object mapping **every official player ID** to an object of string GW IDs and numeric nonnegative expected points). This input is schema-validated, **not statistically calibrated by this repository**. No Cumbres ownership, captains or rival standings are accepted. Multiweek screening remains static and excludes future transfer sequencing.
+
+## New development: historical calibration and sequential search
+
+`python calibration.py` selects the last **predeadline** official `ep_next` snapshot for each gameweek, fetches official `event/{gw}/live/` targets only for games with both `finished` and `data_checked`, and performs a walk-forward position-specific regularized bias calibration. The weekly `.github/workflows/calibrate.yml` runs tests and publishes `data/calibration-report.json`. If fewer than four completed, properly snapshotted GWs are available, it will report **zero evaluated observations**, not fabricated validation. This is a first calibration benchmark, not a comprehensive minutes/xG/defensive-contribution forecast.
+
+`python engine.py --projections forecasts.json --live private-live.json --rolling` enables an opt-in bounded beam search across supplied future GWs, including rolling free transfers (up to five), one transfer per GW, bank, hits, legal lineups and captains. The search is **approximate**, does not model chips, future prices, actual FPL selling-price appreciation, multiple transfers per week or uncertainty, and must not be represented as a globally optimal plan.
+
+Next requirements: ingest genuinely independent position-specific minutes/xG/xA/clean-sheet/defensive contribution forecasts, backtest against the predeadline historical data, expand solver to multiple transfers and chips, validate production CI and report realized performance. The collector still generates the conservative one-GW lineup screen by default; the rolling solver is deliberately opt-in until independently sourced projections and verified live finances exist.
