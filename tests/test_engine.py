@@ -1,6 +1,11 @@
 import unittest
 from engine import legal_squad, lineup, optimize
 from chip_planner import chip_screen
+from projection_inputs import load_projections
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from datetime import datetime, timezone
+import json
 
 
 def players():
@@ -45,6 +50,23 @@ class EngineTests(unittest.TestCase):
         self.assertEqual(result["status"], "screening_only")
         self.assertTrue(result["plans"])
         self.assertEqual(result["plans"][0]["moves"], [])
+
+    def test_external_projections_validation(self):
+        bootstrap = {"events": [{"id": 11, "finished": False}],
+                     "elements": [{"id": i} for i in range(1, 3)]}
+        payload = {"schema_version": 1, "source": "independent-model",
+                   "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+                   "gameweeks": [11], "players": {"1": {"11": 5.}, "2": {"11": 4.}}}
+        with TemporaryDirectory() as d:
+            path = Path(d) / "projections.json"
+            path.write_text(json.dumps(payload))
+            weeks, forecasts = load_projections(path, bootstrap)
+            self.assertEqual(weeks, [11])
+            self.assertEqual(forecasts[1][11], 5.)
+            payload["source"] = "cumbres ownership"
+            path.write_text(json.dumps(payload))
+            with self.assertRaises(ValueError):
+                load_projections(path, bootstrap)
 
     def test_chip_one_per_week(self):
         lineups = {"10": {"bench_boost_increment": 9, "triple_captain_increment": 5},
