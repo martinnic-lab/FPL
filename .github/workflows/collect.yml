@@ -7,6 +7,7 @@ on:
     paths:
       - collector.py
       - engine.py
+      - projection_inputs.py
       - chip_planner.py
       - leagues.py
       - cumbres.py
