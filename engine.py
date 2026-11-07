@@ -9,6 +9,7 @@ from itertools import combinations
 import json
 from pathlib import Path
 from chip_planner import chip_screen
+from projection_inputs import load_projections
 
 POSITIONS = {1: 2, 2: 5, 3: 5, 4: 3}
 MAX_CLUB = 3
@@ -169,6 +170,7 @@ def optimize(ids, players, weeks, forecasts, bank_tenths=None, sell_prices=None,
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--snapshot", help="Validated public snapshot JSON")
+    ap.add_argument("--projections", help="Validated independent per-player per-GW forecast JSON; see ENGINE.md")
     ap.add_argument("--live", help="Optional user-confirmed JSON: bank_tenths, free_transfers, sell_prices_tenths by player ID")
     ap.add_argument("--output", default="data/latest-engine.json")
     args = ap.parse_args()
@@ -182,7 +184,7 @@ def main():
     b = snapshot["sources"]["bootstrap"]["data"]
     fixtures = snapshot["sources"]["fixtures"]["data"]
     players = {p["id"]: p for p in b["elements"]}
-    weeks, forecasts = baseline_forecast(b, fixtures)
+    weeks, forecasts = load_projections(args.projections, b) if args.projections else baseline_forecast(b, fixtures)
     gw = max(map(int, snapshot["squads"]))
     picks = snapshot["squads"][str(gw)]["source"]["data"]["picks"]
     ids = [p["element"] for p in picks]
@@ -191,13 +193,19 @@ def main():
     result = optimize(ids, players, weeks, forecasts, live.get("bank_tenths"),
                       sell, live.get("free_transfers"))
     result["chip_screen"] = chip_screen(result["current_lineups"], snapshot["sources"]["history"]["data"].get("chips", []))
-    result["chip_screen"]["status"] = "insufficient_future_forecasts_for_chip_scheduling"
-    result["chip_screen"]["top_static_assignments"] = []
-    result["caveats"].append("Only next GW is screened: official ep_next cannot legitimately be recycled into future gameweeks.")
+    if not args.projections or len(weeks) < 6:
+        result["chip_screen"]["status"] = "insufficient_future_forecasts_for_chip_scheduling"
+        result["chip_screen"]["top_static_assignments"] = []
+    else:
+        result["chip_screen"]["status"] = "external_forecast_static_screen_only"
+    if not args.projections:
+        result["caveats"].append("Only next GW is screened: official ep_next cannot legitimately be recycled into future gameweeks.")
+    else:
+        result["caveats"].append("External forecasts are not validated by this engine for statistical calibration; inspect provenance.")
     result.update({"generated_at_utc": datetime.now(timezone.utc).isoformat(),
                    "snapshot_collected_at_utc": snapshot["completed_at"],
                    "public_squad_gw": gw, "forecast_gameweeks": weeks,
-                   "forecast_method": "uncalibrated_official_ep_next_next_gw_only",
+                   "forecast_method": "external_user_supplied" if args.projections else "uncalibrated_official_ep_next_next_gw_only",
                    "live_team_verified": bool(live),
                    "cumbres_is_optimizer_input": False})
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
