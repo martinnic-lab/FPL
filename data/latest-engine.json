@@ -1,5 +1,5 @@
 {
-  "current_weighted_points": 305.639,
+  "current_weighted_points": 315.473,
   "current_lineups": {
     "11": {
       "xi": [
@@ -23,7 +23,7 @@
       ],
       "captain": 31,
       "vice": 166,
-      "expected": 61.454,
+      "expected": 63.384,
       "bench_boost_increment": 6.098,
       "triple_captain_increment": 7.141
     },
@@ -49,7 +49,7 @@
       ],
       "captain": 31,
       "vice": 249,
-      "expected": 62.546,
+      "expected": 64.616,
       "bench_boost_increment": 5.902,
       "triple_captain_increment": 7.659
     },
@@ -75,7 +75,7 @@
       ],
       "captain": 31,
       "vice": 166,
-      "expected": 61.454,
+      "expected": 63.384,
       "bench_boost_increment": 6.098,
       "triple_captain_increment": 7.141
     },
@@ -99,11 +99,11 @@
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 61.636,
+      "captain": 249,
+      "vice": 31,
+      "expected": 63.81,
       "bench_boost_increment": 5.944,
-      "triple_captain_increment": 7.141
+      "triple_captain_increment": 7.245
     },
     "15": {
       "xi": [
@@ -126,8 +126,8 @@
         111
       ],
       "captain": 31,
-      "vice": 115,
-      "expected": 62.364,
+      "vice": 249,
+      "expected": 64.294,
       "bench_boost_increment": 6.056,
       "triple_captain_increment": 7.659
     },
@@ -152,8 +152,8 @@
         111
       ],
       "captain": 31,
-      "vice": 115,
-      "expected": 62.77,
+      "vice": 249,
+      "expected": 64.7,
       "bench_boost_increment": 5.944,
       "triple_captain_increment": 7.659
     }
@@ -225,8 +225,8 @@
       "Only one chip per GW; no chip is committed by this output."
     ]
   },
-  "generated_at_utc": "2026-11-06T21:31:49.631150+00:00",
-  "snapshot_collected_at_utc": "2026-11-06T21:31:49.154925Z",
+  "generated_at_utc": "2026-11-07T06:01:35.429847+00:00",
+  "snapshot_collected_at_utc": "2026-11-07T06:01:35.106566Z",
   "public_squad_gw": 10,
   "forecast_gameweeks": [
     11,
