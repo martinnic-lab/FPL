@@ -29,7 +29,7 @@ def select_predeadline(snapshots):
         timestamp = parse_time(snapshot["sources"]["bootstrap"]["fetched_at"])
         for event in bootstrap["events"]:
             deadline = parse_time(event["deadline_time"])
-            if timestamp >= deadline:
+            if timestamp >= deadline or not event.get("is_next"):
                 continue
             gw = event["id"]
             if gw not in chosen or timestamp > chosen[gw][0]:
@@ -84,7 +84,7 @@ def evaluate(chosen, targets, min_train=MIN_TRAIN):
         points = targets[gw]
         examples = [(pos, raw, points[pid]) for pid, (pos, raw) in rows.items()
                     if pid in points]
-        if len(training) >= 0 and len(weekly) >= min_train:
+        if len(weekly) >= min_train:
             before, after = [], []
             for pos, raw, actual in examples:
                 before.append((raw, actual))
