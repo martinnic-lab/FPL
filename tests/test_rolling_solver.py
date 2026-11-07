@@ -1,6 +1,6 @@
 import unittest
 from rolling_solver import search
-from tests.test_engine import players
+from test_engine import players
 
 
 class RollingTests(unittest.TestCase):
