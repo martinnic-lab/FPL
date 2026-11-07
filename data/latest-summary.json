@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-07T14:55:06.091065Z",
+  "collected_at_utc": "2026-11-07T20:14:59.325315Z",
   "latest_public_squad_gameweek": 10,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
@@ -179,9 +179,9 @@
       "captain": false,
       "vice_captain": false,
       "current_market_price_tenths": 55,
-      "status": "a",
-      "news": "",
-      "chance_next_round": null
+      "status": "d",
+      "news": "Groin injury - 75% chance of playing",
+      "chance_next_round": 75
     },
     {
       "id": 259,
