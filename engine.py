@@ -26,8 +26,8 @@ def legal_squad(ids, players):
     return all(sum(players[i]["team"] == t for i in ids) <= MAX_CLUB for t in {players[i]["team"] for i in ids})
 
 
-def baseline_forecast(bootstrap, fixtures, gameweeks=6):
-    """Forecast per GW with official ep_next as anchor and modest fixture adjustment.
+def baseline_forecast(bootstrap, fixtures, gameweeks=1):
+    """Forecast NEXT GW ONLY with official ep_next as anchor and modest fixture adjustment.
 
     Future weeks use an explicitly heuristic anchor; do NOT call it calibrated xPts.
     ep_next is a vendor-supplied official field, not a forecast we have validated.
@@ -191,10 +191,13 @@ def main():
     result = optimize(ids, players, weeks, forecasts, live.get("bank_tenths"),
                       sell, live.get("free_transfers"))
     result["chip_screen"] = chip_screen(result["current_lineups"], snapshot["sources"]["history"]["data"].get("chips", []))
+    result["chip_screen"]["status"] = "insufficient_future_forecasts_for_chip_scheduling"
+    result["chip_screen"]["top_static_assignments"] = []
+    result["caveats"].append("Only next GW is screened: official ep_next cannot legitimately be recycled into future gameweeks.")
     result.update({"generated_at_utc": datetime.now(timezone.utc).isoformat(),
                    "snapshot_collected_at_utc": snapshot["completed_at"],
                    "public_squad_gw": gw, "forecast_gameweeks": weeks,
-                   "forecast_method": "uncalibrated_official_ep_next_fixture_adjusted",
+                   "forecast_method": "uncalibrated_official_ep_next_next_gw_only",
                    "live_team_verified": bool(live),
                    "cumbres_is_optimizer_input": False})
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
