@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-07T20:14:59.325315Z",
+  "collected_at_utc": "2026-11-08T06:05:33.246279Z",
   "latest_public_squad_gameweek": 10,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
@@ -82,7 +82,7 @@
       "position": 6,
       "captain": false,
       "vice_captain": true,
-      "current_market_price_tenths": 66,
+      "current_market_price_tenths": 67,
       "status": "a",
       "news": "",
       "chance_next_round": null
@@ -142,7 +142,7 @@
       "position": 11,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 70,
+      "current_market_price_tenths": 71,
       "status": "a",
       "news": "",
       "chance_next_round": null
@@ -482,18 +482,18 @@
     },
     {
       "event": 10,
-      "points": 25,
-      "total_points": 557,
-      "rank": 115025,
-      "rank_sort": 116345,
-      "overall_rank": 2152017,
+      "points": 53,
+      "total_points": 585,
+      "rank": 127202,
+      "rank_sort": 127879,
+      "overall_rank": 1997677,
       "percentile_rank": 5,
-      "overall_rank_percentage": "19",
+      "overall_rank_percentage": "18",
       "bank": 12,
       "value": 1008,
       "event_transfers": 2,
       "event_transfers_cost": 0,
-      "points_on_bench": 0
+      "points_on_bench": 7
     }
   ],
   "used_chips": [
