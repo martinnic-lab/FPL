@@ -9,6 +9,7 @@ import csv
 from collections import defaultdict
 from datetime import datetime, timezone
 import json
+import math
 from pathlib import Path
 from calibration import metrics
 
@@ -22,7 +23,7 @@ def load_rows(paths, deadlines):
                     raise ValueError("Missing required CSV columns")
                 gw, pid = int(row["gw"]), int(row["player_id"])
                 source = row["source"].strip()
-                if not source or source.lower() == "cumbres":
+                if not source or "cumbres" in source.lower():
                     raise ValueError("Invalid source")
                 as_of = datetime.fromisoformat(row["as_of_utc"].replace("Z", "+00:00"))
                 if as_of.tzinfo is None:
@@ -30,7 +31,7 @@ def load_rows(paths, deadlines):
                 if gw not in deadlines or as_of >= deadlines[gw]:
                     continue
                 expected = float(row["expected_points"])
-                if not 0 <= expected <= 30:
+                if not math.isfinite(expected) or not 0 <= expected <= 30:
                     raise ValueError("Invalid expected points")
                 key = (source, gw, pid)
                 if key not in forecasts or as_of > forecasts[key][0]:
