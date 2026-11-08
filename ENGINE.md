@@ -79,3 +79,7 @@ The benchmarking script and provider registry are implemented; **provider-specif
 ## Non-negotiable budget
 
 **$0 for subscriptions, paid APIs, and projection datasets.** Official FPL API is the guaranteed baseline. Evaluate free downloadable exports from FPL Form and other independent providers only where access is free and reuse/collection permitted. No FPL Review premium dependency, no paid trials, no credentials, and no manual weekly user upload as the default workflow. Each source must record access method, terms, coverage, timestamp, and collection health. If independent free sources are unavailable, continue with the labeled official baseline rather than invent forecasts or violating terms.
+
+## Automatic no-cost provider capture
+
+`provider_collect.py` archives **FPL Cat** (https://fplcat.com/developers; free API for personal benchmarking) and **Sideline Quant** (https://sidelinequant.com/data; CC BY 4.0) as timestamped normalized per-player per-GW CSVs. Sideline Quant fixture-level xP is summed across double fixtures. `.github/workflows/providers.yml` attempts capture twice daily (06:10 and 18:10 UTC), retaining immutable provider-timestamped files. Provider errors are isolated; failure of both causes a failing run, not a fabricated forecast. Raw feeds and endpoint schemas still require a real successful GitHub Actions run before relying on them. Attribution: Projections: FPL Cat (https://fplcat.com); Sideline Quant (https://sidelinequant.com), CC BY 4.0. Do not feed ownership/elite sample fields into decision-making.
