@@ -7,7 +7,7 @@ import argparse
 from datetime import datetime, timezone
 import json
 from pathlib import Path
-from calibration import fetch_final_points
+from calibration import fetch_final_points, select_predeadline, prediction_rows
 from source_benchmark import load_rows, benchmark
 
 
@@ -29,6 +29,13 @@ def run(snapshots, forecasts):
     if not exports:
         return {"status": "no_archived_provider_forecasts", "exports": 0}
     rows = load_rows(exports, deadlines)
+    snapshots_data = [json.loads(path.read_text())
+                      for path in sorted(Path(snapshots).glob("*.json"))]
+    for gw, (as_of, bootstrap) in select_predeadline(snapshots_data).items():
+        if gw not in finalized:
+            continue
+        for pid, (_, xp) in prediction_rows(bootstrap).items():
+            rows[("Official FPL", gw, pid)] = (as_of, xp)
     eligible = sorted(finalized & {gw for _, gw, _ in rows})
     if not eligible:
         return {"status": "awaiting_finalized_gameweeks", "exports": len(exports),
