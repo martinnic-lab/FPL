@@ -56,8 +56,8 @@
     ],
     "status": "insufficient_future_forecasts_for_chip_scheduling"
   },
-  "generated_at_utc": "2026-11-08T20:29:45.824610+00:00",
-  "snapshot_collected_at_utc": "2026-11-08T20:29:45.487274Z",
+  "generated_at_utc": "2026-11-09T06:36:12.132317+00:00",
+  "snapshot_collected_at_utc": "2026-11-09T06:36:11.681093Z",
   "public_squad_gw": 10,
   "forecast_gameweeks": [
     11

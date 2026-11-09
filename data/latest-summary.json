@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-08T20:29:45.487274Z",
+  "collected_at_utc": "2026-11-09T06:36:11.681093Z",
   "latest_public_squad_gameweek": 10,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
@@ -22,7 +22,7 @@
       "position": 1,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 55,
+      "current_market_price_tenths": 54,
       "status": "a",
       "news": "",
       "chance_next_round": null
@@ -58,7 +58,7 @@
       "position": 4,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 54,
+      "current_market_price_tenths": 55,
       "status": "a",
       "news": "",
       "chance_next_round": null
