@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-09T06:36:11.681093Z",
+  "collected_at_utc": "2026-11-09T18:50:04.467040Z",
   "latest_public_squad_gameweek": 10,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
@@ -9,9 +9,9 @@
   "current_free_transfers_verified": false,
   "current_selling_prices_verified": false,
   "current_gameweek": 10,
-  "current_gameweek_finished": false,
-  "current_gameweek_data_checked": false,
-  "latest_public_squad_gameweek_finished": false,
+  "current_gameweek_finished": true,
+  "current_gameweek_data_checked": true,
+  "latest_public_squad_gameweek_finished": true,
   "next_gameweek": 11,
   "next_deadline_utc": "2026-11-21T11:00:00Z",
   "squad": [
@@ -482,18 +482,18 @@
     },
     {
       "event": 10,
-      "points": 53,
-      "total_points": 585,
-      "rank": 127202,
-      "rank_sort": 127879,
-      "overall_rank": 1997677,
-      "percentile_rank": 5,
-      "overall_rank_percentage": "18",
+      "points": 75,
+      "total_points": 607,
+      "rank": 683784,
+      "rank_sort": 687230,
+      "overall_rank": 2487343,
+      "percentile_rank": 10,
+      "overall_rank_percentage": "22",
       "bank": 12,
       "value": 1008,
       "event_transfers": 2,
       "event_transfers_cost": 0,
-      "points_on_bench": 7
+      "points_on_bench": 8
     }
   ],
   "used_chips": [
