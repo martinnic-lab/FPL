@@ -16,15 +16,15 @@
         449
       ],
       "bench": [
-        154,
         268,
+        154,
         259,
         111
       ],
       "captain": 31,
       "vice": 166,
       "expected": 74.566,
-      "bench_boost_increment": 6.951,
+      "bench_boost_increment": 7.723,
       "triple_captain_increment": 9.843
     }
   },
@@ -56,8 +56,8 @@
     ],
     "status": "insufficient_future_forecasts_for_chip_scheduling"
   },
-  "generated_at_utc": "2026-11-09T18:50:04.776870+00:00",
-  "snapshot_collected_at_utc": "2026-11-09T18:50:04.467040Z",
+  "generated_at_utc": "2026-11-10T07:22:22.089093+00:00",
+  "snapshot_collected_at_utc": "2026-11-10T07:22:21.643357Z",
   "public_squad_gw": 10,
   "forecast_gameweeks": [
     11
