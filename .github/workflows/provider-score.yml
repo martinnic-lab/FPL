@@ -1,0 +1,40 @@
+name: Grade free FPL projection sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 7 * * 2'
+  push:
+    paths:
+      - provider_score.py
+      - source_benchmark.py
+      - tests/test_source_benchmark.py
+      - .github/workflows/provider-score.yml
+permissions:
+  contents: write
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Score finalized gameweeks
+        run: python provider_score.py
+      - name: Commit benchmark
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/provider-comparison.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'data: update independent provider benchmark'
+          auth_header="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth_header" push origin "HEAD:${GITHUB_REF_NAME}"

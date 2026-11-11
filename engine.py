@@ -170,6 +170,7 @@ def optimize(ids, players, weeks, forecasts, bank_tenths=None, sell_prices=None,
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--snapshot", help="Validated public snapshot JSON")
+    ap.add_argument("--rolling", action="store_true", help="Run bounded sequential 0/1 weekly transfer search; requires --projections and --live")
     ap.add_argument("--projections", help="Validated independent per-player per-GW forecast JSON; see ENGINE.md")
     ap.add_argument("--live", help="Optional user-confirmed JSON: bank_tenths, free_transfers, sell_prices_tenths by player ID")
     ap.add_argument("--output", default="data/latest-engine.json")
@@ -192,6 +193,12 @@ def main():
     sell = {int(k): v for k, v in live.get("sell_prices_tenths", {}).items()} if live else None
     result = optimize(ids, players, weeks, forecasts, live.get("bank_tenths"),
                       sell, live.get("free_transfers"))
+    if args.rolling:
+        if not args.projections or not args.live or len(weeks) < 2:
+            ap.error("--rolling requires --projections with at least 2 GWs and --live")
+        from rolling_solver import search
+        result["rolling_plan"] = search(ids, players, weeks, forecasts,
+                                        live["bank_tenths"], live["free_transfers"], sell)
     result["chip_screen"] = chip_screen(result["current_lineups"], snapshot["sources"]["history"]["data"].get("chips", []))
     if not args.projections or len(weeks) < 6:
         result["chip_screen"]["status"] = "insufficient_future_forecasts_for_chip_scheduling"

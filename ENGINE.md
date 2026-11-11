@@ -53,3 +53,33 @@ No credentials are collected. Never commit `private-live.json` or personal auth 
 ## Independent projections input
 
 Use `python engine.py --projections forecasts.json` with a timestamped JSON file containing exactly `schema_version: 1`, `source` (nonempty independent provenance), `generated_at_utc` (within 72 hours), `gameweeks` (sorted list of up to six future GW IDs) and `players` (object mapping **every official player ID** to an object of string GW IDs and numeric nonnegative expected points). This input is schema-validated, **not statistically calibrated by this repository**. No Cumbres ownership, captains or rival standings are accepted. Multiweek screening remains static and excludes future transfer sequencing.
+
+## New development: historical calibration and sequential search
+
+`python calibration.py` selects the last **predeadline** official `ep_next` snapshot for each gameweek, fetches official `event/{gw}/live/` targets only for games with both `finished` and `data_checked`, and performs a walk-forward position-specific regularized bias calibration. The weekly `.github/workflows/calibrate.yml` runs tests and publishes `data/calibration-report.json`. If fewer than four completed, properly snapshotted GWs are available, it will report **zero evaluated observations**, not fabricated validation. This is a first calibration benchmark, not a comprehensive minutes/xG/defensive-contribution forecast.
+
+`python engine.py --projections forecasts.json --live private-live.json --rolling` enables an opt-in bounded beam search across supplied future GWs, including rolling free transfers (up to five), one transfer per GW, bank, hits, legal lineups and captains. The search is **approximate**, does not model chips, future prices, actual FPL selling-price appreciation, multiple transfers per week or uncertainty, and must not be represented as a globally optimal plan.
+
+Next requirements: ingest genuinely independent position-specific minutes/xG/xA/clean-sheet/defensive contribution forecasts, backtest against the predeadline historical data, expand solver to multiple transfers and chips, validate production CI and report realized performance. The collector still generates the conservative one-GW lineup screen by default; the rolling solver is deliberately opt-in until independently sourced projections and verified live finances exist.
+
+## Practical provider comparison (November 2026)
+
+Prioritize existing external projections over training a new points model from a short season sample. Candidate providers and permitted-access checks:
+- FPL Form: https://fplform.com/export-fpl-form-data — explicitly offers predicted-points CSV for personal use; honor attribution, copyright and restrictions on publication.
+- FPL Review: https://docs.fplreview.com/the-model/planner-interface/export_projections/ — documented per-GW CSV with FPL IDs, xPts and xMins; may require membership and authorized manual export.
+- FPL Alpha: https://fplalpha.com/ — public GW-specific projections; confirm permission for automated collection before implementing any fetch.
+- FPL Toolkit: https://www.fpltoolkit.co.uk/projections — six-week distributions; confirm permitted export/collection.
+- Onside: https://onsidearena.com/data — published graded predeadline forecast dataset under CC-BY-4.0; useful as an external historical benchmark, not proof that other providers perform similarly.
+- Official FPL ep_next — baseline from already-authorized public FPL API.
+
+`source_benchmark.py` compares providers **only** on the identical player-GW sample with forecasts timestamped before deadline. Each authorized normalized CSV requires `player_id,gw,expected_points,source,as_of_utc`; run `python source_benchmark.py exports/*.csv --deadlines deadlines.json --actual actual.json`. For each GW, archive a predeadline immutable export; do not replace it with a later revision. Match all player IDs to official FPL IDs. Never redistribute third-party copyrighted exports. No paid-provider credentials or access bypasses in GitHub. Report MAE, RMSE and bias, plus coverage, by source; don't select a winner from small samples. Once enough comparable GWs accumulate, evaluate a lagged weighted ensemble out of sample rather than picking whichever provider just won last week.
+
+The benchmarking script and provider registry are implemented; **provider-specific ingestion, authorization, automated data capture and sufficient actual benchmark samples are not yet verified**.
+
+## Non-negotiable budget
+
+**$0 for subscriptions, paid APIs, and projection datasets.** Official FPL API is the guaranteed baseline. Evaluate free downloadable exports from FPL Form and other independent providers only where access is free and reuse/collection permitted. No FPL Review premium dependency, no paid trials, no credentials, and no manual weekly user upload as the default workflow. Each source must record access method, terms, coverage, timestamp, and collection health. If independent free sources are unavailable, continue with the labeled official baseline rather than invent forecasts or violating terms.
+
+## Automatic no-cost provider capture
+
+`provider_collect.py` archives **FPL Cat** (https://fplcat.com/developers; free API for personal benchmarking) and **Sideline Quant** (https://sidelinequant.com/data; CC BY 4.0) as timestamped normalized per-player per-GW CSVs. Sideline Quant fixture-level xP is summed across double fixtures. `.github/workflows/providers.yml` attempts capture twice daily (06:10 and 18:10 UTC), retaining immutable provider-timestamped files. Provider errors are isolated; failure of both causes a failing run, not a fabricated forecast. Raw feeds and endpoint schemas still require a real successful GitHub Actions run before relying on them. Attribution: Projections: FPL Cat (https://fplcat.com); Sideline Quant (https://sidelinequant.com), CC BY 4.0. Do not feed ownership/elite sample fields into decision-making.
