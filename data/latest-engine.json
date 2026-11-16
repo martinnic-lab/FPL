@@ -1,5 +1,5 @@
 {
-  "current_weighted_points": 71.142,
+  "current_weighted_points": 75.675,
   "current_lineups": {
     "11": {
       "xi": [
@@ -16,16 +16,16 @@
         268
       ],
       "bench": [
-        154,
         399,
+        154,
         259,
         111
       ],
-      "captain": 31,
-      "vice": 166,
-      "expected": 71.142,
-      "bench_boost_increment": 7.222,
-      "triple_captain_increment": 9.843
+      "captain": 166,
+      "vice": 31,
+      "expected": 75.675,
+      "bench_boost_increment": 7.774,
+      "triple_captain_increment": 11.385
     }
   },
   "status": "lineup_only",
@@ -56,8 +56,8 @@
     ],
     "status": "insufficient_future_forecasts_for_chip_scheduling"
   },
-  "generated_at_utc": "2026-11-16T06:34:17.136411+00:00",
-  "snapshot_collected_at_utc": "2026-11-16T06:34:16.861898Z",
+  "generated_at_utc": "2026-11-16T18:35:44.806540+00:00",
+  "snapshot_collected_at_utc": "2026-11-16T18:35:44.537923Z",
   "public_squad_gw": 10,
   "forecast_gameweeks": [
     11
