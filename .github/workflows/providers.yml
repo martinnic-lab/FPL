@@ -1,0 +1,42 @@
+name: Archive free FPL projection sources
+on:
+  schedule:
+    - cron: '10 6,18 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - provider_collect.py
+      - tests/test_provider_collect.py
+      - .github/workflows/providers.yml
+permissions:
+  contents: write
+concurrency:
+  group: fpl-provider-archive-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test provider ingestion
+        run: python -m unittest discover -s tests -v
+      - name: Fetch free independent projections
+        run: python provider_collect.py
+      - name: Commit immutable predeadline exports
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/provider-forecasts/
+          git diff --cached --quiet && exit 0
+          git commit -m 'data: archive free predeadline projection feeds'
+          auth_header="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth_header" push origin "HEAD:${GITHUB_REF_NAME}"

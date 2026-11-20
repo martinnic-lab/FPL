@@ -1,0 +1,22 @@
+{
+  "method": "walk_forward_position_bias_shrinkage",
+  "minimum_training_gameweeks": 3,
+  "raw": {
+    "n": 0,
+    "mae": null,
+    "rmse": null,
+    "bias": null
+  },
+  "calibrated": {
+    "n": 0,
+    "mae": null,
+    "rmse": null,
+    "bias": null
+  },
+  "per_gameweek": [],
+  "position_adjustments": {},
+  "warning": "Only evaluates official ep_next if historical predeadline snapshots exist. A positive backtest result does not prove robust future performance.",
+  "generated_at_utc": "2026-11-07T18:23:57.540477+00:00",
+  "eligible_gameweeks": [],
+  "source": "official predeadline snapshot ep_next versus finalized official live points"
+}
