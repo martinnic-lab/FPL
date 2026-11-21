@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-21T16:10:49.885891Z",
+  "collected_at_utc": "2026-11-21T21:40:18.147365Z",
   "latest_public_squad_gameweek": 11,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
@@ -167,9 +167,9 @@
       "captain": false,
       "vice_captain": false,
       "current_market_price_tenths": 52,
-      "status": "a",
-      "news": "",
-      "chance_next_round": null
+      "status": "d",
+      "news": "Unspecified injury - 75% chance of playing",
+      "chance_next_round": 75
     },
     {
       "id": 268,
@@ -490,18 +490,18 @@
     },
     {
       "event": 11,
-      "points": 0,
-      "total_points": 607,
-      "rank": null,
-      "rank_sort": null,
-      "overall_rank": 2487343,
-      "percentile_rank": null,
-      "overall_rank_percentage": null,
+      "points": 26,
+      "total_points": 633,
+      "rank": 3670190,
+      "rank_sort": 3694206,
+      "overall_rank": 2444310,
+      "percentile_rank": 35,
+      "overall_rank_percentage": "22",
       "bank": 23,
       "value": 1012,
       "event_transfers": 1,
       "event_transfers_cost": 0,
-      "points_on_bench": 0
+      "points_on_bench": 3
     }
   ],
   "used_chips": [
