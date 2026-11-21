@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-21T07:12:16.707712Z",
-  "latest_public_squad_gameweek": 10,
+  "collected_at_utc": "2026-11-21T16:10:49.885891Z",
+  "latest_public_squad_gameweek": 11,
   "squad_scope": "post_deadline_public_only",
   "live_predeadline_team_verified": false,
   "current_bank_verified": false,
   "current_free_transfers_verified": false,
   "current_selling_prices_verified": false,
-  "current_gameweek": 10,
-  "current_gameweek_finished": true,
-  "current_gameweek_data_checked": true,
-  "latest_public_squad_gameweek_finished": true,
-  "next_gameweek": 11,
-  "next_deadline_utc": "2026-11-21T11:00:00Z",
+  "current_gameweek": 11,
+  "current_gameweek_finished": false,
+  "current_gameweek_data_checked": false,
+  "latest_public_squad_gameweek_finished": false,
+  "next_gameweek": 12,
+  "next_deadline_utc": "2026-11-27T18:30:00Z",
   "squad": [
     {
-      "id": 384,
-      "name": "Donnarumma",
-      "club": "MCI",
+      "id": 496,
+      "name": "Kinsky",
+      "club": "TOT",
       "position": 1,
       "captain": false,
       "vice_captain": false,
-      "current_market_price_tenths": 54,
+      "current_market_price_tenths": 44,
       "status": "a",
       "news": "",
       "chance_next_round": null
@@ -81,7 +81,7 @@
       "club": "BOU",
       "position": 6,
       "captain": false,
-      "vice_captain": true,
+      "vice_captain": false,
       "current_market_price_tenths": 67,
       "status": "a",
       "news": "",
@@ -141,7 +141,7 @@
       "club": "AVL",
       "position": 11,
       "captain": false,
-      "vice_captain": false,
+      "vice_captain": true,
       "current_market_price_tenths": 72,
       "status": "a",
       "news": "",
@@ -197,6 +197,14 @@
     }
   ],
   "confirmed_public_transfers_recent": [
+    {
+      "gameweek": 11,
+      "time": "2026-11-08T18:10:41.879111Z",
+      "out": "Donnarumma",
+      "in": "Kinsky",
+      "out_cost_tenths": 55,
+      "in_cost_tenths": 44
+    },
     {
       "gameweek": 10,
       "time": "2026-11-06T18:09:55.123807Z",
@@ -376,21 +384,6 @@
   ],
   "recent_results": [
     {
-      "event": 3,
-      "points": 50,
-      "total_points": 183,
-      "rank": 5859802,
-      "rank_sort": 5874495,
-      "overall_rank": 4498301,
-      "percentile_rank": 60,
-      "overall_rank_percentage": "43",
-      "bank": 6,
-      "value": 1001,
-      "event_transfers": 1,
-      "event_transfers_cost": 0,
-      "points_on_bench": 16
-    },
-    {
       "event": 4,
       "points": 74,
       "total_points": 257,
@@ -494,6 +487,21 @@
       "event_transfers": 2,
       "event_transfers_cost": 0,
       "points_on_bench": 8
+    },
+    {
+      "event": 11,
+      "points": 0,
+      "total_points": 607,
+      "rank": null,
+      "rank_sort": null,
+      "overall_rank": 2487343,
+      "percentile_rank": null,
+      "overall_rank_percentage": null,
+      "bank": 23,
+      "value": 1012,
+      "event_transfers": 1,
+      "event_transfers_cost": 0,
+      "points_on_bench": 0
     }
   ],
   "used_chips": [
