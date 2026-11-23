@@ -2,7 +2,7 @@
   "entry_id": 1580840,
   "league_id": 602612,
   "league_name": "7ma Fantasy PL Cumbresina",
-  "collected_at_utc": "2026-11-23T07:42:37.840094+00:00",
+  "collected_at_utc": "2026-11-23T20:15:34.222108+00:00",
   "public_picks_gameweek": 11,
   "current_gameweek_finished": false,
   "private_live_squad_verified": false,
@@ -11,7 +11,7 @@
       "rank": 1,
       "entry": 3000550,
       "team": "Ya Ksi lo saka",
-      "total": 743,
+      "total": 744,
       "captain": "Haaland",
       "captain_id": 411,
       "squad_player_ids": [
@@ -56,57 +56,6 @@
         "Penders",
         "Silva",
         "Tarkowski"
-      ]
-    },
-    {
-      "rank": 2,
-      "entry": 4271117,
-      "team": "Garzenal",
-      "total": 736,
-      "captain": "Haaland",
-      "captain_id": 411,
-      "squad_player_ids": [
-        1,
-        8,
-        31,
-        40,
-        68,
-        79,
-        109,
-        115,
-        124,
-        154,
-        166,
-        233,
-        236,
-        259,
-        411
-      ],
-      "squad_names": [
-        "Calafiori",
-        "De Cuyper",
-        "Dewsbury-Hall",
-        "Diop",
-        "Evanilson",
-        "Groß",
-        "Haaland",
-        "Konsa",
-        "Mykolenko",
-        "N.Jackson",
-        "Palmer",
-        "Raya",
-        "Rogers",
-        "Tavernier",
-        "Verbruggen"
-      ],
-      "shared_with_me": 9,
-      "differentials_vs_me": [
-        "Evanilson",
-        "Groß",
-        "Mykolenko",
-        "Raya",
-        "Rogers",
-        "Verbruggen"
       ]
     },
     {
@@ -161,6 +110,57 @@
         "Rogers",
         "Van Hecke",
         "Yalcouyé"
+      ]
+    },
+    {
+      "rank": 2,
+      "entry": 4271117,
+      "team": "Garzenal",
+      "total": 736,
+      "captain": "Haaland",
+      "captain_id": 411,
+      "squad_player_ids": [
+        1,
+        8,
+        31,
+        40,
+        68,
+        79,
+        109,
+        115,
+        124,
+        154,
+        166,
+        233,
+        236,
+        259,
+        411
+      ],
+      "squad_names": [
+        "Calafiori",
+        "De Cuyper",
+        "Dewsbury-Hall",
+        "Diop",
+        "Evanilson",
+        "Groß",
+        "Haaland",
+        "Konsa",
+        "Mykolenko",
+        "N.Jackson",
+        "Palmer",
+        "Raya",
+        "Rogers",
+        "Tavernier",
+        "Verbruggen"
+      ],
+      "shared_with_me": 9,
+      "differentials_vs_me": [
+        "Evanilson",
+        "Groß",
+        "Mykolenko",
+        "Raya",
+        "Rogers",
+        "Verbruggen"
       ]
     },
     {
@@ -327,7 +327,7 @@
       "rank": 7,
       "entry": 4200227,
       "team": "Eze come, Eze go",
-      "total": 689,
+      "total": 690,
       "captain": "Haaland",
       "captain_id": 411,
       "squad_player_ids": [
@@ -653,7 +653,7 @@
       "rank": 13,
       "entry": 2964830,
       "team": "HakunaMateta",
-      "total": 658,
+      "total": 659,
       "captain": "Haaland",
       "captain_id": 411,
       "squad_player_ids": [
@@ -868,7 +868,7 @@
       "rank": 17,
       "entry": 1580840,
       "team": "Nicho11s",
-      "total": 634,
+      "total": 636,
       "captain": "Haaland",
       "captain_id": 411,
       "squad_player_ids": [
@@ -912,7 +912,7 @@
       "rank": 18,
       "entry": 6915320,
       "team": "FC Village",
-      "total": 586,
+      "total": 587,
       "captain": "Haaland",
       "captain_id": 411,
       "squad_player_ids": [
