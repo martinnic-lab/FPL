@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "source_analysts": [
+    {
+      "id": "solio",
+      "name": "Solio Analytics",
+      "url": "https://fpl.solioanalytics.com/",
+      "type": "quantitative",
+      "access": "verify",
+      "independence": "unverified"
+    },
+    {
+      "id": "fpltoolkit",
+      "name": "FPL Toolkit",
+      "url": "https://www.fpltoolkit.co.uk/projections",
+      "type": "quantitative",
+      "access": "verify",
+      "independence": "unverified"
+    },
+    {
+      "id": "lineupoptimizer",
+      "name": "Lineup Optimizer",
+      "url": "https://lineupoptimizer.app/fpl-projections",
+      "type": "quantitative",
+      "access": "verify",
+      "independence": "unverified"
+    },
+    {
+      "id": "rotowire",
+      "name": "RotoWire",
+      "url": "https://www.rotowire.com/soccer/",
+      "type": "editorial",
+      "access": "verify",
+      "independence": "unverified"
+    }
+  ],
+  "auditor": {
+    "binding_policy": "DECISION_POLICY.md",
+    "minimum_distinct_numeric_models": 2,
+    "disagreement_threshold_xpts": 1,
+    "exclude_cumbres_from_decisions": true,
+    "automatic_transfers": false
+  }
+}
