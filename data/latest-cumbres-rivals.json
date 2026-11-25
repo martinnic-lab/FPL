@@ -2,9 +2,9 @@
   "entry_id": 1580840,
   "league_id": 602612,
   "league_name": "7ma Fantasy PL Cumbresina",
-  "collected_at_utc": "2026-11-24T09:57:00.198179+00:00",
+  "collected_at_utc": "2026-11-25T00:46:46.328395+00:00",
   "public_picks_gameweek": 11,
-  "current_gameweek_finished": false,
+  "current_gameweek_finished": true,
   "private_live_squad_verified": false,
   "standings": [
     {
@@ -62,7 +62,7 @@
       "rank": 2,
       "entry": 4917458,
       "team": "Lumori F.C",
-      "total": 736,
+      "total": 737,
       "captain": "Haaland",
       "captain_id": 411,
       "squad_player_ids": [
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "entry": 4271117,
       "team": "Garzenal",
       "total": 736,
@@ -912,7 +912,7 @@
       "rank": 18,
       "entry": 6915320,
       "team": "FC Village",
-      "total": 588,
+      "total": 594,
       "captain": "Haaland",
       "captain_id": 411,
       "squad_player_ids": [
