@@ -1,0 +1,23 @@
+{
+  "note": "ILLUSTRATIVE ONLY. Not actual forecasts.",
+  "records": [
+    {
+      "source": "solio",
+      "gw": 12,
+      "player_id": 115,
+      "collected_at_utc": "2026-11-23T20:00:00Z",
+      "source_url": "https://fpl.solioanalytics.com/",
+      "xpts": 5.7,
+      "expected_minutes": 85
+    },
+    {
+      "source": "fpltoolkit",
+      "gw": 12,
+      "player_id": 115,
+      "collected_at_utc": "2026-11-23T20:00:00Z",
+      "source_url": "https://www.fpltoolkit.co.uk/projections",
+      "xpts": 5.1,
+      "expected_minutes": 85
+    }
+  ]
+}
