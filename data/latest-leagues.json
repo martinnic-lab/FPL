@@ -1,13 +1,13 @@
 {
   "entry_id": 1580840,
-  "collected_at_utc": "2026-11-27T00:37:02.098351+00:00",
+  "collected_at_utc": "2026-11-27T18:13:25.826517+00:00",
   "source": "https://fantasy.premierleague.com/api/entry/1580840/",
   "classic": [
     {
       "league_id": 1774,
       "league_name": "Fantasy Football Scout Members",
       "standings_source": "https://fantasy.premierleague.com/api/leagues-classic/1774/standings/",
-      "my_position": 10029,
+      "my_position": 10028,
       "my_total": null,
       "entries_fetched": 1000,
       "complete": false,
